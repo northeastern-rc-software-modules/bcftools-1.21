@@ -5,7 +5,7 @@
 #SBATCH -w d0038
 
 # Setting up the environment
-source bcftools-1.21.sh
+source env_bcftools-1.21.sh
 
 # Creating the src directory for the installed application
 mkdir -p $SOFTWARE_DIRECTORY/src
@@ -17,6 +17,8 @@ cd $SOFTWARE_DIRECTORY/src
 wget https://github.com/samtools/bcftools/releases/download/1.21/bcftools-1.21.tar.bz2
 tar -xjvf bcftools-1.21.tar.bz2
 cd bcftools-1.21
+# add in additional plugins
+wget -P plugins http://raw.githubusercontent.com/freeseek/gtc2vcf/master/{idat2gtc.c,gtc2vcf.{c,h},affy2vcf.c}
 ./configure --prefix=$SOFTWARE_DIRECTORY
 make
 make install
@@ -42,6 +44,7 @@ echo "prepend-path	 PATH $SOFTWARE_DIRECTORY/bin" >> $SOFTWARE_VERSION
 echo "prepend-path       LIBRARY_PATH $SOFTWARE_DIRECTORY/lib" >> $SOFTWARE_VERSION
 echo "prepend-path       LD_LIBRARY_PATH $SOFTWARE_DIRECTORY/lib" >> $SOFTWARE_VERSION
 echo "prepend-path       CPATH $SOFTWARE_DIRECTORY/include" >> $SOFTWARE_VERSION
+echo "prepend-path       BCFTOOLS_PLUGINS $SOFTWARE_DIRECTORY/src/bcftools-1.21/plugins" >> $SOFTWARE_VERSION
 
 # Moving modulefile
 mkdir -p $CLUSTER_DIRECTORY/modulefiles/$SOFTWARE_NAME

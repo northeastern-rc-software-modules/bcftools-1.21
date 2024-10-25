@@ -1,0 +1,20 @@
+#%Module
+module-whatis	 "Loads bcftools/1.21 module.
+
+This module was built on Fri Oct 25 01:26:54 PM EDT 2024
+
+bcftools
+
+The script used to build this module can be found here: https://github.com/northeastern-rc-software-modules/bcftools-1.21
+
+To load the module, type:
+module load bcftools/1.21
+
+"
+
+conflict	 bcftools
+prepend-path	 PATH /shared/EL9/explorer/bcftools/1.21/bin
+prepend-path       LIBRARY_PATH /shared/EL9/explorer/bcftools/1.21/lib
+prepend-path       LD_LIBRARY_PATH /shared/EL9/explorer/bcftools/1.21/lib
+prepend-path       CPATH /shared/EL9/explorer/bcftools/1.21/include
+prepend-path       BCFTOOLS_PLUGINS /shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/plugins
