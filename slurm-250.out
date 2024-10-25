@@ -1,0 +1,3452 @@
+--2024-10-25 13:17:41--  https://github.com/samtools/bcftools/releases/download/1.21/bcftools-1.21.tar.bz2
+Connecting to 10.99.0.130:3128... connected.
+Proxy request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/11368595/de2bcdce-ae2d-4b03-a273-c1f30d0e821f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241025%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241025T171741Z&X-Amz-Expires=300&X-Amz-Signature=b73fb0951a136fbf10565f7c758203d175b7db95aae447163022504205cc21f7&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dbcftools-1.21.tar.bz2&response-content-type=application%2Foctet-stream [following]
+--2024-10-25 13:17:41--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/11368595/de2bcdce-ae2d-4b03-a273-c1f30d0e821f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241025%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241025T171741Z&X-Amz-Expires=300&X-Amz-Signature=b73fb0951a136fbf10565f7c758203d175b7db95aae447163022504205cc21f7&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dbcftools-1.21.tar.bz2&response-content-type=application%2Foctet-stream
+Connecting to 10.99.0.130:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 7982173 (7.6M) [application/octet-stream]
+Saving to: ‘bcftools-1.21.tar.bz2’
+
+     0K .......... .......... .......... .......... ..........  0% 98.3M 0s
+    50K .......... .......... .......... .......... ..........  1%  295M 0s
+   100K .......... .......... .......... .......... ..........  1%  413M 0s
+   150K .......... .......... .......... .......... ..........  2%  450M 0s
+   200K .......... .......... .......... .......... ..........  3%  457M 0s
+   250K .......... .......... .......... .......... ..........  3%  509M 0s
+   300K .......... .......... .......... .......... ..........  4%  514M 0s
+   350K .......... .......... .......... .......... ..........  5%  524M 0s
+   400K .......... .......... .......... .......... ..........  5% 25.1M 0s
+   450K .......... .......... .......... .......... ..........  6%  102M 0s
+   500K .......... .......... .......... .......... ..........  7%  117M 0s
+   550K .......... .......... .......... .......... ..........  7%  118M 0s
+   600K .......... .......... .......... .......... ..........  8%  159M 0s
+   650K .......... .......... .......... .......... ..........  8%  127M 0s
+   700K .......... .......... .......... .......... ..........  9%  209M 0s
+   750K .......... .......... .......... .......... .......... 10%  175M 0s
+   800K .......... .......... .......... .......... .......... 10% 97.4M 0s
+   850K .......... .......... .......... .......... .......... 11% 23.7M 0s
+   900K .......... .......... .......... .......... .......... 12%  165M 0s
+   950K .......... .......... .......... .......... .......... 12%  216M 0s
+  1000K .......... .......... .......... .......... .......... 13%  461M 0s
+  1050K .......... .......... .......... .......... .......... 14%  170M 0s
+  1100K .......... .......... .......... .......... .......... 14%  405M 0s
+  1150K .......... .......... .......... .......... .......... 15%  197M 0s
+  1200K .......... .......... .......... .......... .......... 16%  238M 0s
+  1250K .......... .......... .......... .......... .......... 16%  283M 0s
+  1300K .......... .......... .......... .......... .......... 17%  288M 0s
+  1350K .......... .......... .......... .......... .......... 17%  248M 0s
+  1400K .......... .......... .......... .......... .......... 18%  371M 0s
+  1450K .......... .......... .......... .......... .......... 19%  198M 0s
+  1500K .......... .......... .......... .......... .......... 19%  530M 0s
+  1550K .......... .......... .......... .......... .......... 20%  316M 0s
+  1600K .......... .......... .......... .......... .......... 21%  200M 0s
+  1650K .......... .......... .......... .......... .......... 21%  505M 0s
+  1700K .......... .......... .......... .......... .......... 22%  474M 0s
+  1750K .......... .......... .......... .......... .......... 23%  316M 0s
+  1800K .......... .......... .......... .......... .......... 23% 26.9M 0s
+  1850K .......... .......... .......... .......... .......... 24%  178M 0s
+  1900K .......... .......... .......... .......... .......... 25%  509M 0s
+  1950K .......... .......... .......... .......... .......... 25%  303M 0s
+  2000K .......... .......... .......... .......... .......... 26%  331M 0s
+  2050K .......... .......... .......... .......... .......... 26%  364M 0s
+  2100K .......... .......... .......... .......... .......... 27%  503M 0s
+  2150K .......... .......... .......... .......... .......... 28%  294M 0s
+  2200K .......... .......... .......... .......... .......... 28%  422M 0s
+  2250K .......... .......... .......... .......... .......... 29%  254M 0s
+  2300K .......... .......... .......... .......... .......... 30%  467M 0s
+  2350K .......... .......... .......... .......... .......... 30%  497M 0s
+  2400K .......... .......... .......... .......... .......... 31%  376M 0s
+  2450K .......... .......... .......... .......... .......... 32%  468M 0s
+  2500K .......... .......... .......... .......... .......... 32%  349M 0s
+  2550K .......... .......... .......... .......... .......... 33%  419M 0s
+  2600K .......... .......... .......... .......... .......... 33%  408M 0s
+  2650K .......... .......... .......... .......... .......... 34%  411M 0s
+  2700K .......... .......... .......... .......... .......... 35%  343M 0s
+  2750K .......... .......... .......... .......... .......... 35%  527M 0s
+  2800K .......... .......... .......... .......... .......... 36%  275M 0s
+  2850K .......... .......... .......... .......... .......... 37%  504M 0s
+  2900K .......... .......... .......... .......... .......... 37%  312M 0s
+  2950K .......... .......... .......... .......... .......... 38%  465M 0s
+  3000K .......... .......... .......... .......... .......... 39%  492M 0s
+  3050K .......... .......... .......... .......... .......... 39%  395M 0s
+  3100K .......... .......... .......... .......... .......... 40%  230M 0s
+  3150K .......... .......... .......... .......... .......... 41%  324M 0s
+  3200K .......... .......... .......... .......... .......... 41%  257M 0s
+  3250K .......... .......... .......... .......... .......... 42%  428M 0s
+  3300K .......... .......... .......... .......... .......... 42%  307M 0s
+  3350K .......... .......... .......... .......... .......... 43%  417M 0s
+  3400K .......... .......... .......... .......... .......... 44%  165M 0s
+  3450K .......... .......... .......... .......... .......... 44%  327M 0s
+  3500K .......... .......... .......... .......... .......... 45%  472M 0s
+  3550K .......... .......... .......... .......... .......... 46%  364M 0s
+  3600K .......... .......... .......... .......... .......... 46%  376M 0s
+  3650K .......... .......... .......... .......... .......... 47%  506M 0s
+  3700K .......... .......... .......... .......... .......... 48%  510M 0s
+  3750K .......... .......... .......... .......... .......... 48%  516M 0s
+  3800K .......... .......... .......... .......... .......... 49%  456M 0s
+  3850K .......... .......... .......... .......... .......... 50%  484M 0s
+  3900K .......... .......... .......... .......... .......... 50%  542M 0s
+  3950K .......... .......... .......... .......... .......... 51%  518M 0s
+  4000K .......... .......... .......... .......... .......... 51%  423M 0s
+  4050K .......... .......... .......... .......... .......... 52%  441M 0s
+  4100K .......... .......... .......... .......... .......... 53%  463M 0s
+  4150K .......... .......... .......... .......... .......... 53%  517M 0s
+  4200K .......... .......... .......... .......... .......... 54%  441M 0s
+  4250K .......... .......... .......... .......... .......... 55%  512M 0s
+  4300K .......... .......... .......... .......... .......... 55%  491M 0s
+  4350K .......... .......... .......... .......... .......... 56%  482M 0s
+  4400K .......... .......... .......... .......... .......... 57%  425M 0s
+  4450K .......... .......... .......... .......... .......... 57%  511M 0s
+  4500K .......... .......... .......... .......... .......... 58%  510M 0s
+  4550K .......... .......... .......... .......... .......... 59%  497M 0s
+  4600K .......... .......... .......... .......... .......... 59%  439M 0s
+  4650K .......... .......... .......... .......... .......... 60%  537M 0s
+  4700K .......... .......... .......... .......... .......... 60%  514M 0s
+  4750K .......... .......... .......... .......... .......... 61%  514M 0s
+  4800K .......... .......... .......... .......... .......... 62%  431M 0s
+  4850K .......... .......... .......... .......... .......... 62%  460M 0s
+  4900K .......... .......... .......... .......... .......... 63%  496M 0s
+  4950K .......... .......... .......... .......... .......... 64%  515M 0s
+  5000K .......... .......... .......... .......... .......... 64%  459M 0s
+  5050K .......... .......... .......... .......... .......... 65%  462M 0s
+  5100K .......... .......... .......... .......... .......... 66%  490M 0s
+  5150K .......... .......... .......... .......... .......... 66%  451M 0s
+  5200K .......... .......... .......... .......... .......... 67%  399M 0s
+  5250K .......... .......... .......... .......... .......... 67%  509M 0s
+  5300K .......... .......... .......... .......... .......... 68%  508M 0s
+  5350K .......... .......... .......... .......... .......... 69%  443M 0s
+  5400K .......... .......... .......... .......... .......... 69%  441M 0s
+  5450K .......... .......... .......... .......... .......... 70%  508M 0s
+  5500K .......... .......... .......... .......... .......... 71%  528M 0s
+  5550K .......... .......... .......... .......... .......... 71%  489M 0s
+  5600K .......... .......... .......... .......... .......... 72%  401M 0s
+  5650K .......... .......... .......... .......... .......... 73%  505M 0s
+  5700K .......... .......... .......... .......... .......... 73%  505M 0s
+  5750K .......... .......... .......... .......... .......... 74%  505M 0s
+  5800K .......... .......... .......... .......... .......... 75%  461M 0s
+  5850K .......... .......... .......... .......... .......... 75%  496M 0s
+  5900K .......... .......... .......... .......... .......... 76%  516M 0s
+  5950K .......... .......... .......... .......... .......... 76%  510M 0s
+  6000K .......... .......... .......... .......... .......... 77%  345M 0s
+  6050K .......... .......... .......... .......... .......... 78%  465M 0s
+  6100K .......... .......... .......... .......... .......... 78%  469M 0s
+  6150K .......... .......... .......... .......... .......... 79%  445M 0s
+  6200K .......... .......... .......... .......... .......... 80%  447M 0s
+  6250K .......... .......... .......... .......... .......... 80%  500M 0s
+  6300K .......... .......... .......... .......... .......... 81%  523M 0s
+  6350K .......... .......... .......... .......... .......... 82%  524M 0s
+  6400K .......... .......... .......... .......... .......... 82%  405M 0s
+  6450K .......... .......... .......... .......... .......... 83%  518M 0s
+  6500K .......... .......... .......... .......... .......... 84%  480M 0s
+  6550K .......... .......... .......... .......... .......... 84%  496M 0s
+  6600K .......... .......... .......... .......... .......... 85%  462M 0s
+  6650K .......... .......... .......... .......... .......... 85%  523M 0s
+  6700K .......... .......... .......... .......... .......... 86%  526M 0s
+  6750K .......... .......... .......... .......... .......... 87%  499M 0s
+  6800K .......... .......... .......... .......... .......... 87%  428M 0s
+  6850K .......... .......... .......... .......... .......... 88%  451M 0s
+  6900K .......... .......... .......... .......... .......... 89%  474M 0s
+  6950K .......... .......... .......... .......... .......... 89%  518M 0s
+  7000K .......... .......... .......... .......... .......... 90%  453M 0s
+  7050K .......... .......... .......... .......... .......... 91%  531M 0s
+  7100K .......... .......... .......... .......... .......... 91%  527M 0s
+  7150K .......... .......... .......... .......... .......... 92%  530M 0s
+  7200K .......... .......... .......... .......... .......... 93%  446M 0s
+  7250K .......... .......... .......... .......... .......... 93%  541M 0s
+  7300K .......... .......... .......... .......... .......... 94%  547M 0s
+  7350K .......... .......... .......... .......... .......... 94%  529M 0s
+  7400K .......... .......... .......... .......... .......... 95%  494M 0s
+  7450K .......... .......... .......... .......... .......... 96%  541M 0s
+  7500K .......... .......... .......... .......... .......... 96%  510M 0s
+  7550K .......... .......... .......... .......... .......... 97%  528M 0s
+  7600K .......... .......... .......... .......... .......... 98%  440M 0s
+  7650K .......... .......... .......... .......... .......... 98%  531M 0s
+  7700K .......... .......... .......... .......... .......... 99%  543M 0s
+  7750K .......... .......... .......... .......... .....     100%  513M=0.03s
+
+2024-10-25 13:17:42 (284 MB/s) - ‘bcftools-1.21.tar.bz2’ saved [7982173/7982173]
+
+bcftools-1.21/
+bcftools-1.21/filter.c
+bcftools-1.21/smpl_ilist.h
+bcftools-1.21/install-sh
+bcftools-1.21/mw.h
+bcftools-1.21/version.sh
+bcftools-1.21/em.c
+bcftools-1.21/edlib.c
+bcftools-1.21/vcfcnv.c
+bcftools-1.21/vcfbuf.h
+bcftools-1.21/cigar_state.h
+bcftools-1.21/smpl_ilist.c
+bcftools-1.21/gvcf.h
+bcftools-1.21/str_finder.h
+bcftools-1.21/read_consensus.c
+bcftools-1.21/vcfroh.c
+bcftools-1.21/abuf.c
+bcftools-1.21/gff.h
+bcftools-1.21/dist.h
+bcftools-1.21/cols.c
+bcftools-1.21/consensus.c
+bcftools-1.21/vcfsom.c
+bcftools-1.21/bam2bcf.h
+bcftools-1.21/kmin.h
+bcftools-1.21/main.c
+bcftools-1.21/vcfquery.c
+bcftools-1.21/config.h.in
+bcftools-1.21/LICENSE
+bcftools-1.21/bam2bcf_iaux.c
+bcftools-1.21/vcfsort.c
+bcftools-1.21/vcfplugin.c
+bcftools-1.21/mpileup_bench/
+bcftools-1.21/mpileup_bench/get_data.sh
+bcftools-1.21/mpileup_bench/run_multi.sh
+bcftools-1.21/mpileup_bench/run_mpileup.sh
+bcftools-1.21/mpileup_bench/compare_vcf_simple.sh
+bcftools-1.21/mpileup_bench/plot_isec.pl
+bcftools-1.21/mpileup_bench/README
+bcftools-1.21/bam2bcf_edlib.c
+bcftools-1.21/khash_str2str.h
+bcftools-1.21/utlist.h
+bcftools-1.21/htslib-1.21/
+bcftools-1.21/htslib-1.21/hfile_s3.c
+bcftools-1.21/htslib-1.21/bcf_sr_sort.h
+bcftools-1.21/htslib-1.21/thread_pool.c
+bcftools-1.21/htslib-1.21/tbx.c
+bcftools-1.21/htslib-1.21/version.sh
+bcftools-1.21/htslib-1.21/htscodecs_bundled.mk
+bcftools-1.21/htslib-1.21/hts_time_funcs.h
+bcftools-1.21/htslib-1.21/plugin.c
+bcftools-1.21/htslib-1.21/annot-tsv.c
+bcftools-1.21/htslib-1.21/config.sub
+bcftools-1.21/htslib-1.21/htslib.map
+bcftools-1.21/htslib-1.21/sam_internal.h
+bcftools-1.21/htslib-1.21/htsfile.1
+bcftools-1.21/htslib-1.21/textutils_internal.h
+bcftools-1.21/htslib-1.21/thread_pool_internal.h
+bcftools-1.21/htslib-1.21/config.h.in
+bcftools-1.21/htslib-1.21/textutils.c
+bcftools-1.21/htslib-1.21/LICENSE
+bcftools-1.21/htslib-1.21/htslib/
+bcftools-1.21/htslib-1.21/htslib/khash_str2int.h
+bcftools-1.21/htslib-1.21/htslib/kfunc.h
+bcftools-1.21/htslib-1.21/htslib/faidx.h
+bcftools-1.21/htslib-1.21/htslib/khash.h
+bcftools-1.21/htslib-1.21/htslib/ksort.h
+bcftools-1.21/htslib-1.21/htslib/kroundup.h
+bcftools-1.21/htslib-1.21/htslib/tbx.h
+bcftools-1.21/htslib-1.21/htslib/vcf.h
+bcftools-1.21/htslib-1.21/htslib/hts_endian.h
+bcftools-1.21/htslib-1.21/htslib/hts_expr.h
+bcftools-1.21/htslib-1.21/htslib/regidx.h
+bcftools-1.21/htslib-1.21/htslib/hts.h
+bcftools-1.21/htslib-1.21/htslib/hfile.h
+bcftools-1.21/htslib-1.21/htslib/vcfutils.h
+bcftools-1.21/htslib-1.21/htslib/synced_bcf_reader.h
+bcftools-1.21/htslib-1.21/htslib/hts_defs.h
+bcftools-1.21/htslib-1.21/htslib/kstring.h
+bcftools-1.21/htslib-1.21/htslib/kseq.h
+bcftools-1.21/htslib-1.21/htslib/kbitset.h
+bcftools-1.21/htslib-1.21/htslib/hts_log.h
+bcftools-1.21/htslib-1.21/htslib/vcf_sweep.h
+bcftools-1.21/htslib-1.21/htslib/knetfile.h
+bcftools-1.21/htslib-1.21/htslib/hts_os.h
+bcftools-1.21/htslib-1.21/htslib/sam.h
+bcftools-1.21/htslib-1.21/htslib/klist.h
+bcftools-1.21/htslib-1.21/htslib/thread_pool.h
+bcftools-1.21/htslib-1.21/htslib/cram.h
+bcftools-1.21/htslib-1.21/htslib/bgzf.h
+bcftools-1.21/htslib-1.21/hfile_s3_write.c
+bcftools-1.21/htslib-1.21/htslib.pc.in
+bcftools-1.21/htslib-1.21/samples/
+bcftools-1.21/htslib-1.21/samples/split.c
+bcftools-1.21/htslib-1.21/samples/sample.ref.fa
+bcftools-1.21/htslib-1.21/samples/read_bam.c
+bcftools-1.21/htslib-1.21/samples/add_header.c
+bcftools-1.21/htslib-1.21/samples/split_thread2.c
+bcftools-1.21/htslib-1.21/samples/qtask_ordered.c
+bcftools-1.21/htslib-1.21/samples/update_header.c
+bcftools-1.21/htslib-1.21/samples/sample.bed
+bcftools-1.21/htslib-1.21/samples/pileup_mod.c
+bcftools-1.21/htslib-1.21/samples/write_fast.c
+bcftools-1.21/htslib-1.21/samples/split2.c
+bcftools-1.21/htslib-1.21/samples/index_reg_read.c
+bcftools-1.21/htslib-1.21/samples/flags_htsopt_field.c
+bcftools-1.21/htslib-1.21/samples/index_multireg_read.c
+bcftools-1.21/htslib-1.21/samples/read_fast.c
+bcftools-1.21/htslib-1.21/samples/flags_demo.c
+bcftools-1.21/htslib-1.21/samples/mod_aux_ba.c
+bcftools-1.21/htslib-1.21/samples/mod_bam.c
+bcftools-1.21/htslib-1.21/samples/mod_aux.c
+bcftools-1.21/htslib-1.21/samples/modstate.c
+bcftools-1.21/htslib-1.21/samples/Makefile
+bcftools-1.21/htslib-1.21/samples/read_refname.c
+bcftools-1.21/htslib-1.21/samples/mpileup.c
+bcftools-1.21/htslib-1.21/samples/index_write.c
+bcftools-1.21/htslib-1.21/samples/index_fasta.c
+bcftools-1.21/htslib-1.21/samples/cram.c
+bcftools-1.21/htslib-1.21/samples/sample.sam
+bcftools-1.21/htslib-1.21/samples/read_fast_index.c
+bcftools-1.21/htslib-1.21/samples/read_aux.c
+bcftools-1.21/htslib-1.21/samples/pileup.c
+bcftools-1.21/htslib-1.21/samples/read_header.c
+bcftools-1.21/htslib-1.21/samples/dump_aux.c
+bcftools-1.21/htslib-1.21/samples/split_thread1.c
+bcftools-1.21/htslib-1.21/samples/DEMO.md
+bcftools-1.21/htslib-1.21/samples/rem_header.c
+bcftools-1.21/htslib-1.21/samples/sample.ref.fq
+bcftools-1.21/htslib-1.21/samples/qtask_unordered.c
+bcftools-1.21/htslib-1.21/htslib_vars.mk
+bcftools-1.21/htslib-1.21/hfile_libcurl.c
+bcftools-1.21/htslib-1.21/README.large_positions.md
+bcftools-1.21/htslib-1.21/test/
+bcftools-1.21/htslib-1.21/test/range.cram.crai
+bcftools-1.21/htslib-1.21/test/no_hdr_sq_1.bam.csi
+bcftools-1.21/htslib-1.21/test/c1.fa.fai
+bcftools-1.21/htslib-1.21/test/realn02.sam
+bcftools-1.21/htslib-1.21/test/test_bgzf.c
+bcftools-1.21/htslib-1.21/test/sam_filter/
+bcftools-1.21/htslib-1.21/test/sam_filter/int3.out
+bcftools-1.21/htslib-1.21/test/sam_filter/filter.sh
+bcftools-1.21/htslib-1.21/test/sam_filter/string5.out
+bcftools-1.21/htslib-1.21/test/sam_filter/string3.out
+bcftools-1.21/htslib-1.21/test/sam_filter/filter.tst
+bcftools-1.21/htslib-1.21/test/sam_filter/func4.out
+bcftools-1.21/htslib-1.21/test/sam_filter/int1.out
+bcftools-1.21/htslib-1.21/test/sam_filter/string4.out
+bcftools-1.21/htslib-1.21/test/sam_filter/func1.out
+bcftools-1.21/htslib-1.21/test/sam_filter/func5.out
+bcftools-1.21/htslib-1.21/test/sam_filter/func3.out
+bcftools-1.21/htslib-1.21/test/sam_filter/func2.out
+bcftools-1.21/htslib-1.21/test/sam_filter/int2.out
+bcftools-1.21/htslib-1.21/test/sam_filter/string6.out
+bcftools-1.21/htslib-1.21/test/sam_filter/func8.out
+bcftools-1.21/htslib-1.21/test/sam_filter/func7.out
+bcftools-1.21/htslib-1.21/test/sam_filter/func6.out
+bcftools-1.21/htslib-1.21/test/sam_filter/string2.out
+bcftools-1.21/htslib-1.21/test/sam_filter/string1.out
+bcftools-1.21/htslib-1.21/test/sam_filter/string7.out
+bcftools-1.21/htslib-1.21/test/annot-tsv/
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.8.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.2.2.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.11.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.2.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.2.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.10.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.1.3.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.11.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.10.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.1.6.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.7.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.12.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.5.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.12.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.1.4.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.10.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.9.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.2.3.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.2.6.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.6.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.5.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.10.5.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.10.4.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.1.2.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.1.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.10.2.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.6.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.11.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.4.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.10.6.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.13.3.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.6.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.13.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.7.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.7.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.2.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.5.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.2.5.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.1.5.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.3.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.8.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.4.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.2.4.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.11.3.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.13.2.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.3.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.13.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.10.3.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.4.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.11.2.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.3.1.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.8.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.9.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/out.13.4.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/src.9.txt
+bcftools-1.21/htslib-1.21/test/annot-tsv/dst.12.txt
+bcftools-1.21/htslib-1.21/test/realn02.fa
+bcftools-1.21/htslib-1.21/test/xx#minimal.sam
+bcftools-1.21/htslib-1.21/test/simple_test_driver.sh
+bcftools-1.21/htslib-1.21/test/c1#noseq.sam
+bcftools-1.21/htslib-1.21/test/header_syms.pl
+bcftools-1.21/htslib-1.21/test/longrefs/
+bcftools-1.21/htslib-1.21/test/longrefs/longref.sam
+bcftools-1.21/htslib-1.21/test/longrefs/index.expected1.vcf
+bcftools-1.21/htslib-1.21/test/longrefs/index.expected2.vcf
+bcftools-1.21/htslib-1.21/test/longrefs/longref_multi.expected.sam
+bcftools-1.21/htslib-1.21/test/longrefs/longref_itr.expected.sam
+bcftools-1.21/htslib-1.21/test/longrefs/index.vcf
+bcftools-1.21/htslib-1.21/test/ce.fa
+bcftools-1.21/htslib-1.21/test/index.cram.crai
+bcftools-1.21/htslib-1.21/test/test-bcf_set_variant_type.c
+bcftools-1.21/htslib-1.21/test/formatmissing-out.vcf
+bcftools-1.21/htslib-1.21/test/c1.fa
+bcftools-1.21/htslib-1.21/test/thrash_threads1.c
+bcftools-1.21/htslib-1.21/test/ce#unmap2.sam
+bcftools-1.21/htslib-1.21/test/ce#2.sam
+bcftools-1.21/htslib-1.21/test/range.out2
+bcftools-1.21/htslib-1.21/test/xx#repeated.sam
+bcftools-1.21/htslib-1.21/test/modhdr.vcf.gz.csi
+bcftools-1.21/htslib-1.21/test/realn02_exp.sam
+bcftools-1.21/htslib-1.21/test/ce#5b_java.cram
+bcftools-1.21/htslib-1.21/test/bgziptest.txt.gz.gzi
+bcftools-1.21/htslib-1.21/test/thrash_threads3.c
+bcftools-1.21/htslib-1.21/test/test-vcf-api.out
+bcftools-1.21/htslib-1.21/test/pileup_mod.c
+bcftools-1.21/htslib-1.21/test/test-vcf-hdr-in.vcf
+bcftools-1.21/htslib-1.21/test/index_dos.sam
+bcftools-1.21/htslib-1.21/test/ce#5b.sam
+bcftools-1.21/htslib-1.21/test/faidx/
+bcftools-1.21/htslib-1.21/test/faidx/faidx.fa.expected.fai
+bcftools-1.21/htslib-1.21/test/faidx/fastqs.1.expected.fq
+bcftools-1.21/htslib-1.21/test/faidx/test-faidx.sh
+bcftools-1.21/htslib-1.21/test/faidx/fastqs.fq
+bcftools-1.21/htslib-1.21/test/faidx/fastqs.fq.expected.fai
+bcftools-1.21/htslib-1.21/test/faidx/fastqs.2.expected.fa
+bcftools-1.21/htslib-1.21/test/faidx/faidx.tst
+bcftools-1.21/htslib-1.21/test/faidx/ce.1.expected.fa
+bcftools-1.21/htslib-1.21/test/faidx/faidx.fa
+bcftools-1.21/htslib-1.21/test/faidx/faidx.1.expected.fa
+bcftools-1.21/htslib-1.21/test/xx#tlen.sam
+bcftools-1.21/htslib-1.21/test/index2.sam
+bcftools-1.21/htslib-1.21/test/test-vcf-api.c
+bcftools-1.21/htslib-1.21/test/tabix/
+bcftools-1.21/htslib-1.21/test/tabix/gff_file.gff
+bcftools-1.21/htslib-1.21/test/tabix/bed_file.Y.100200.out
+bcftools-1.21/htslib-1.21/test/tabix/vcf_file.1.3000151.out
+bcftools-1.21/htslib-1.21/test/tabix/large_chr.vcf
+bcftools-1.21/htslib-1.21/test/tabix/tabix.tst
+bcftools-1.21/htslib-1.21/test/tabix/large_chr.20.1.2147483647.out
+bcftools-1.21/htslib-1.21/test/tabix/bed_file.separate.out
+bcftools-1.21/htslib-1.21/test/tabix/bed_file.bed
+bcftools-1.21/htslib-1.21/test/tabix/vcf_file.bcf
+bcftools-1.21/htslib-1.21/test/tabix/test-tabix.sh
+bcftools-1.21/htslib-1.21/test/tabix/vcf_file.vcf
+bcftools-1.21/htslib-1.21/test/tabix/gff_file.X.2934832.2935190.out
+bcftools-1.21/htslib-1.21/test/tabix/vcf_file.2.3199812.out
+bcftools-1.21/htslib-1.21/test/range.bam
+bcftools-1.21/htslib-1.21/test/ce#1.sam
+bcftools-1.21/htslib-1.21/test/formatmissing.vcf
+bcftools-1.21/htslib-1.21/test/index.sam.gz.csi
+bcftools-1.21/htslib-1.21/test/realn01.fa.fai
+bcftools-1.21/htslib-1.21/test/colons.bam
+bcftools-1.21/htslib-1.21/test/test-regidx.c
+bcftools-1.21/htslib-1.21/test/xx#tlen2.sam
+bcftools-1.21/htslib-1.21/test/ce#unmap.sam
+bcftools-1.21/htslib-1.21/test/index.bcf.csi
+bcftools-1.21/htslib-1.21/test/noroundtrip-out.vcf
+bcftools-1.21/htslib-1.21/test/index.bam.csi
+bcftools-1.21/htslib-1.21/test/sam.c
+bcftools-1.21/htslib-1.21/test/c1#pad3.sam
+bcftools-1.21/htslib-1.21/test/c1#pad1.sam
+bcftools-1.21/htslib-1.21/test/realn01.fa
+bcftools-1.21/htslib-1.21/test/xx#large_aux_java.cram
+bcftools-1.21/htslib-1.21/test/ce#large_seq.sam
+bcftools-1.21/htslib-1.21/test/formatcols.vcf
+bcftools-1.21/htslib-1.21/test/thrash_threads2.c
+bcftools-1.21/htslib-1.21/test/auxf#values_java.cram
+bcftools-1.21/htslib-1.21/test/range.bam.bai
+bcftools-1.21/htslib-1.21/test/test_kstring.c
+bcftools-1.21/htslib-1.21/test/ce#1000.sam
+bcftools-1.21/htslib-1.21/test/realn03_exp.sam
+bcftools-1.21/htslib-1.21/test/c2.fa.fai
+bcftools-1.21/htslib-1.21/test/test_nibbles.c
+bcftools-1.21/htslib-1.21/test/modhdr.vcf.gz
+bcftools-1.21/htslib-1.21/test/c1#pad2.sam
+bcftools-1.21/htslib-1.21/test/fastqs_README.txt
+bcftools-1.21/htslib-1.21/test/md.fa
+bcftools-1.21/htslib-1.21/test/xx#unsorted.sam
+bcftools-1.21/htslib-1.21/test/ce#5.sam
+bcftools-1.21/htslib-1.21/test/c1#clip.sam
+bcftools-1.21/htslib-1.21/test/xx#large_aux.sam
+bcftools-1.21/htslib-1.21/test/xx#blank.sam
+bcftools-1.21/htslib-1.21/test/realn01_exp.sam
+bcftools-1.21/htslib-1.21/test/test_realn.c
+bcftools-1.21/htslib-1.21/test/c1#bounds.sam
+bcftools-1.21/htslib-1.21/test/ce#tag_padded.sam
+bcftools-1.21/htslib-1.21/test/hfile.c
+bcftools-1.21/htslib-1.21/test/fuzz/
+bcftools-1.21/htslib-1.21/test/fuzz/hts_open_fuzzer.c
+bcftools-1.21/htslib-1.21/test/realn01_exp-a.sam
+bcftools-1.21/htslib-1.21/test/thread_pool.md
+bcftools-1.21/htslib-1.21/test/realn01.sam
+bcftools-1.21/htslib-1.21/test/bgziptest.txt.gz
+bcftools-1.21/htslib-1.21/test/xx#pair.sam
+bcftools-1.21/htslib-1.21/test/thrash_threads4.c
+bcftools-1.21/htslib-1.21/test/ce#tag_depadded.sam
+bcftools-1.21/htslib-1.21/test/plugins-dlhts.c
+bcftools-1.21/htslib-1.21/test/xx#rg.sam
+bcftools-1.21/htslib-1.21/test/test.pl
+bcftools-1.21/htslib-1.21/test/bgziptest.txt
+bcftools-1.21/htslib-1.21/test/xx.fa
+bcftools-1.21/htslib-1.21/test/auxf#values.sam
+bcftools-1.21/htslib-1.21/test/xx#triplet.sam
+bcftools-1.21/htslib-1.21/test/realn01_exp-e.sam
+bcftools-1.21/htslib-1.21/test/fastq/
+bcftools-1.21/htslib-1.21/test/fastq/inter_casavaOX.sam
+bcftools-1.21/htslib-1.21/test/fastq/inter_aux.sam
+bcftools-1.21/htslib-1.21/test/fastq/multiline.sam
+bcftools-1.21/htslib-1.21/test/fastq/single_aux.sam
+bcftools-1.21/htslib-1.21/test/fastq/filter_casava.fa
+bcftools-1.21/htslib-1.21/test/fastq/filter_casava.sam
+bcftools-1.21/htslib-1.21/test/fastq/minimal.sam
+bcftools-1.21/htslib-1.21/test/fastq/r1-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/single.fq
+bcftools-1.21/htslib-1.21/test/fastq/name2-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/longline.sam
+bcftools-1.21/htslib-1.21/test/fastq/interleaved.fq
+bcftools-1.21/htslib-1.21/test/fastq/inter_noaux-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/r2.fa
+bcftools-1.21/htslib-1.21/test/fastq/filter_casava-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/interleaved.fa
+bcftools-1.21/htslib-1.21/test/fastq/minimal.fa
+bcftools-1.21/htslib-1.21/test/fastq/multiline-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/inter_casavaOX-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/test-fastq.sh
+bcftools-1.21/htslib-1.21/test/fastq/r1.fa
+bcftools-1.21/htslib-1.21/test/fastq/r2.fq
+bcftools-1.21/htslib-1.21/test/fastq/inter_aux-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/minimal.fq
+bcftools-1.21/htslib-1.21/test/fastq/interleaved_casava.fa
+bcftools-1.21/htslib-1.21/test/fastq/longline.fq
+bcftools-1.21/htslib-1.21/test/fastq/single_aux-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/inter_casava-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/r1.sam
+bcftools-1.21/htslib-1.21/test/fastq/multiline.fa
+bcftools-1.21/htslib-1.21/test/fastq/name2.sam
+bcftools-1.21/htslib-1.21/test/fastq/r2-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/fastq.tst
+bcftools-1.21/htslib-1.21/test/fastq/single_noaux.sam
+bcftools-1.21/htslib-1.21/test/fastq/inter_noaux.sam
+bcftools-1.21/htslib-1.21/test/fastq/name2.fa
+bcftools-1.21/htslib-1.21/test/fastq/inter_casava.sam
+bcftools-1.21/htslib-1.21/test/fastq/r1.fq
+bcftools-1.21/htslib-1.21/test/fastq/minimal-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/name2.fq
+bcftools-1.21/htslib-1.21/test/fastq/single.fa
+bcftools-1.21/htslib-1.21/test/fastq/multiline.fq
+bcftools-1.21/htslib-1.21/test/fastq/r2.sam
+bcftools-1.21/htslib-1.21/test/fastq/single_noaux-q.sam
+bcftools-1.21/htslib-1.21/test/fastq/filter_casava.fq
+bcftools-1.21/htslib-1.21/test/fastq/interleaved_casava.fq
+bcftools-1.21/htslib-1.21/test/modhdr.expected.vcf
+bcftools-1.21/htslib-1.21/test/realn02_exp-a.sam
+bcftools-1.21/htslib-1.21/test/test-bcf-translate.c
+bcftools-1.21/htslib-1.21/test/maintainer/
+bcftools-1.21/htslib-1.21/test/maintainer/check_copyright.pl
+bcftools-1.21/htslib-1.21/test/maintainer/check_spaces.pl
+bcftools-1.21/htslib-1.21/test/compare_sam.pl
+bcftools-1.21/htslib-1.21/test/md.fa.fai
+bcftools-1.21/htslib-1.21/test/test_kfunc.c
+bcftools-1.21/htslib-1.21/test/index.bam.bai
+bcftools-1.21/htslib-1.21/test/xx#large_aux2.sam
+bcftools-1.21/htslib-1.21/test/test-bcf-translate.out
+bcftools-1.21/htslib-1.21/test/cross_validate.sh
+bcftools-1.21/htslib-1.21/test/ce#unmap1.sam
+bcftools-1.21/htslib-1.21/test/test-bcf-sr.c
+bcftools-1.21/htslib-1.21/test/xx.fa.fai
+bcftools-1.21/htslib-1.21/test/md#1.sam
+bcftools-1.21/htslib-1.21/test/auxf.fa
+bcftools-1.21/htslib-1.21/test/test_time_funcs.c
+bcftools-1.21/htslib-1.21/test/test-vcf-sweep.out
+bcftools-1.21/htslib-1.21/test/test_mod.c
+bcftools-1.21/htslib-1.21/test/realn03.sam
+bcftools-1.21/htslib-1.21/test/index.vcf.gz.tbi
+bcftools-1.21/htslib-1.21/test/c2.fa
+bcftools-1.21/htslib-1.21/test/thrash_threads6.c
+bcftools-1.21/htslib-1.21/test/hts_endian.c
+bcftools-1.21/htslib-1.21/test/test_index.c
+bcftools-1.21/htslib-1.21/test/realn02-r.sam
+bcftools-1.21/htslib-1.21/test/index.vcf.gz.csi
+bcftools-1.21/htslib-1.21/test/noroundtrip.vcf
+bcftools-1.21/htslib-1.21/test/fieldarith.c
+bcftools-1.21/htslib-1.21/test/thrash_threads5.c
+bcftools-1.21/htslib-1.21/test/ce.fa.fai
+bcftools-1.21/htslib-1.21/test/c2#pad.sam
+bcftools-1.21/htslib-1.21/test/xx#MD2.sam
+bcftools-1.21/htslib-1.21/test/ce#supp.sam
+bcftools-1.21/htslib-1.21/test/test-vcf-sweep.c
+bcftools-1.21/htslib-1.21/test/pileup.c
+bcftools-1.21/htslib-1.21/test/index.sam
+bcftools-1.21/htslib-1.21/test/test_str2int.c
+bcftools-1.21/htslib-1.21/test/test_view.c
+bcftools-1.21/htslib-1.21/test/index.sam.gz.bai
+bcftools-1.21/htslib-1.21/test/fieldarith.sam
+bcftools-1.21/htslib-1.21/test/realn03.fa.fai
+bcftools-1.21/htslib-1.21/test/emptyfile
+bcftools-1.21/htslib-1.21/test/test-parse-reg.c
+bcftools-1.21/htslib-1.21/test/range.out
+bcftools-1.21/htslib-1.21/test/test_khash.c
+bcftools-1.21/htslib-1.21/test/test-vcf-hdr.out
+bcftools-1.21/htslib-1.21/test/auxf.fa.fai
+bcftools-1.21/htslib-1.21/test/mpileup/
+bcftools-1.21/htslib-1.21/test/mpileup/c1#pad1.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_overlap1.sam
+bcftools-1.21/htslib-1.21/test/mpileup/mpileup.tst
+bcftools-1.21/htslib-1.21/test/mpileup/test-pileup.sh
+bcftools-1.21/htslib-1.21/test/mpileup/mp_D.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_N.sam
+bcftools-1.21/htslib-1.21/test/mpileup/mp_N2.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_I.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_ID.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_DI.sam
+bcftools-1.21/htslib-1.21/test/mpileup/c1#pad3.sam
+bcftools-1.21/htslib-1.21/test/mpileup/c1#pad1.sam
+bcftools-1.21/htslib-1.21/test/mpileup/small.bam
+bcftools-1.21/htslib-1.21/test/mpileup/mp_overlap1.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_P.sam
+bcftools-1.21/htslib-1.21/test/mpileup/c1#pad2.sam
+bcftools-1.21/htslib-1.21/test/mpileup/mp_ID.sam
+bcftools-1.21/htslib-1.21/test/mpileup/small.out
+bcftools-1.21/htslib-1.21/test/mpileup/c1#pad2.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_P.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_overlap2.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_overlap2.sam
+bcftools-1.21/htslib-1.21/test/mpileup/c1#pad3.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_I.sam
+bcftools-1.21/htslib-1.21/test/mpileup/mp_N.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_DI.out
+bcftools-1.21/htslib-1.21/test/mpileup/mp_N2.sam
+bcftools-1.21/htslib-1.21/test/mpileup/mp_D.sam
+bcftools-1.21/htslib-1.21/test/realn03.fa
+bcftools-1.21/htslib-1.21/test/base_mods/
+bcftools-1.21/htslib-1.21/test/base_mods/MM-pileup2.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-not-all-modded.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-bounds+.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-explicit.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-bounds-.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-double.out
+bcftools-1.21/htslib-1.21/test/base_mods/MM-chebi.out
+bcftools-1.21/htslib-1.21/test/base_mods/MM-explicit.out
+bcftools-1.21/htslib-1.21/test/base_mods/MM-MNf2.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-MNf1.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-multi.out
+bcftools-1.21/htslib-1.21/test/base_mods/MM-double.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-pileup.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-MNp.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-pileup2.out
+bcftools-1.21/htslib-1.21/test/base_mods/MM-explicit-x.out
+bcftools-1.21/htslib-1.21/test/base_mods/base-mods.tst
+bcftools-1.21/htslib-1.21/test/base_mods/MM-orient.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-chebi.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-not-all-modded.out
+bcftools-1.21/htslib-1.21/test/base_mods/MM-pileup.out
+bcftools-1.21/htslib-1.21/test/base_mods/MM-multi.sam
+bcftools-1.21/htslib-1.21/test/base_mods/MM-explicit-f.out
+bcftools-1.21/htslib-1.21/test/base_mods/base-mods.sh
+bcftools-1.21/htslib-1.21/test/test-bcf-sr.pl
+bcftools-1.21/htslib-1.21/test/realn02.fa.fai
+bcftools-1.21/htslib-1.21/test/range.cram
+bcftools-1.21/htslib-1.21/test/bgzf_boundaries/
+bcftools-1.21/htslib-1.21/test/bgzf_boundaries/bgzf_boundaries1.bam
+bcftools-1.21/htslib-1.21/test/bgzf_boundaries/bgzf_boundaries3.bam
+bcftools-1.21/htslib-1.21/test/bgzf_boundaries/bgzf_boundaries2.bam
+bcftools-1.21/htslib-1.21/test/usepublic.cpp
+bcftools-1.21/htslib-1.21/test/vcf_meta_meta.vcf
+bcftools-1.21/htslib-1.21/test/no_hdr_sq_1.expected.sam
+bcftools-1.21/htslib-1.21/test/xx#MD.sam
+bcftools-1.21/htslib-1.21/test/no_hdr_sq_1.bam
+bcftools-1.21/htslib-1.21/test/c1#unknown.sam
+bcftools-1.21/htslib-1.21/test/thrash_threads7.c
+bcftools-1.21/htslib-1.21/test/realn02_exp-e.sam
+bcftools-1.21/htslib-1.21/test/tabix.out
+bcftools-1.21/htslib-1.21/test/test_faidx.c
+bcftools-1.21/htslib-1.21/test/with-shlib.sh
+bcftools-1.21/htslib-1.21/test/index.vcf
+bcftools-1.21/htslib-1.21/test/test_introspection.c
+bcftools-1.21/htslib-1.21/test/bcf-sr/
+bcftools-1.21/htslib-1.21/test/bcf-sr/merge.noidx.a.vcf
+bcftools-1.21/htslib-1.21/test/bcf-sr/weird-chr-names.2.out
+bcftools-1.21/htslib-1.21/test/bcf-sr/merge.noidx.b.vcf
+bcftools-1.21/htslib-1.21/test/bcf-sr/weird-chr-names.3.out
+bcftools-1.21/htslib-1.21/test/bcf-sr/merge.noidx.rec_order.vcf
+bcftools-1.21/htslib-1.21/test/bcf-sr/weird-chr-names.vcf
+bcftools-1.21/htslib-1.21/test/bcf-sr/merge.noidx.c.vcf
+bcftools-1.21/htslib-1.21/test/bcf-sr/weird-chr-names.4.out
+bcftools-1.21/htslib-1.21/test/bcf-sr/merge.noidx.hdr_order.vcf
+bcftools-1.21/htslib-1.21/test/bcf-sr/weird-chr-names.6.out
+bcftools-1.21/htslib-1.21/test/bcf-sr/weird-chr-names.1.out
+bcftools-1.21/htslib-1.21/test/bcf-sr/merge.noidx.abc.expected.out
+bcftools-1.21/htslib-1.21/test/bcf-sr/weird-chr-names.5.out
+bcftools-1.21/htslib-1.21/test/test-logging.pl
+bcftools-1.21/htslib-1.21/test/test_expr.c
+bcftools-1.21/htslib-1.21/test/colons.bam.bai
+bcftools-1.21/htslib-1.21/sam.c
+bcftools-1.21/htslib-1.21/configure
+bcftools-1.21/htslib-1.21/INSTALL
+bcftools-1.21/htslib-1.21/bcf_sr_sort.c
+bcftools-1.21/htslib-1.21/hts_expr.c
+bcftools-1.21/htslib-1.21/multipart.c
+bcftools-1.21/htslib-1.21/configure.ac
+bcftools-1.21/htslib-1.21/region.c
+bcftools-1.21/htslib-1.21/tabix.c
+bcftools-1.21/htslib-1.21/sam.5
+bcftools-1.21/htslib-1.21/hts_probe_cc.sh
+bcftools-1.21/htslib-1.21/cram/
+bcftools-1.21/htslib-1.21/cram/cram_io.h
+bcftools-1.21/htslib-1.21/cram/open_trace_file.h
+bcftools-1.21/htslib-1.21/cram/string_alloc.h
+bcftools-1.21/htslib-1.21/cram/mFILE.c
+bcftools-1.21/htslib-1.21/cram/cram_encode.c
+bcftools-1.21/htslib-1.21/cram/cram_codecs.h
+bcftools-1.21/htslib-1.21/cram/cram_external.c
+bcftools-1.21/htslib-1.21/cram/string_alloc.c
+bcftools-1.21/htslib-1.21/cram/open_trace_file.c
+bcftools-1.21/htslib-1.21/cram/cram_samtools.h
+bcftools-1.21/htslib-1.21/cram/README
+bcftools-1.21/htslib-1.21/cram/cram_structs.h
+bcftools-1.21/htslib-1.21/cram/cram_index.c
+bcftools-1.21/htslib-1.21/cram/cram_decode.c
+bcftools-1.21/htslib-1.21/cram/pooled_alloc.h
+bcftools-1.21/htslib-1.21/cram/mFILE.h
+bcftools-1.21/htslib-1.21/cram/cram_stats.h
+bcftools-1.21/htslib-1.21/cram/os.h
+bcftools-1.21/htslib-1.21/cram/pooled_alloc.c
+bcftools-1.21/htslib-1.21/cram/cram_encode.h
+bcftools-1.21/htslib-1.21/cram/cram_index.h
+bcftools-1.21/htslib-1.21/cram/cram_stats.c
+bcftools-1.21/htslib-1.21/cram/cram_codecs.c
+bcftools-1.21/htslib-1.21/cram/cram_decode.h
+bcftools-1.21/htslib-1.21/cram/misc.h
+bcftools-1.21/htslib-1.21/cram/cram.h
+bcftools-1.21/htslib-1.21/cram/cram_io.c
+bcftools-1.21/htslib-1.21/annot-tsv.1
+bcftools-1.21/htslib-1.21/Makefile
+bcftools-1.21/htslib-1.21/bgzip.1
+bcftools-1.21/htslib-1.21/hfile.c
+bcftools-1.21/htslib-1.21/README
+bcftools-1.21/htslib-1.21/bgzf.c
+bcftools-1.21/htslib-1.21/htslib-s3-plugin.7
+bcftools-1.21/htslib-1.21/faidx.c
+bcftools-1.21/htslib-1.21/vcf.c
+bcftools-1.21/htslib-1.21/htscodecs_external.mk
+bcftools-1.21/htslib-1.21/kstring.c
+bcftools-1.21/htslib-1.21/synced_bcf_reader.c
+bcftools-1.21/htslib-1.21/hfile_gcs.c
+bcftools-1.21/htslib-1.21/bgzip.c
+bcftools-1.21/htslib-1.21/builddir_vars.mk.in
+bcftools-1.21/htslib-1.21/header.h
+bcftools-1.21/htslib-1.21/hts_internal.h
+bcftools-1.21/htslib-1.21/hts.c
+bcftools-1.21/htslib-1.21/tabix.1
+bcftools-1.21/htslib-1.21/config.mk.in
+bcftools-1.21/htslib-1.21/hfile_internal.h
+bcftools-1.21/htslib-1.21/os/
+bcftools-1.21/htslib-1.21/os/lzma_stub.h
+bcftools-1.21/htslib-1.21/os/rand.c
+bcftools-1.21/htslib-1.21/fuzz_settings.h
+bcftools-1.21/htslib-1.21/hts_os.c
+bcftools-1.21/htslib-1.21/htslib.mk
+bcftools-1.21/htslib-1.21/sam_mods.c
+bcftools-1.21/htslib-1.21/kfunc.c
+bcftools-1.21/htslib-1.21/probaln.c
+bcftools-1.21/htslib-1.21/htscodecs/
+bcftools-1.21/htslib-1.21/htscodecs/BENCHMARKS.md
+bcftools-1.21/htslib-1.21/htscodecs/NEWS.md
+bcftools-1.21/htslib-1.21/htscodecs/tests/
+bcftools-1.21/htslib-1.21/htscodecs/tests/benchmark.sh
+bcftools-1.21/htslib-1.21/htscodecs/tests/entropy.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/fqzcomp.test
+bcftools-1.21/htslib-1.21/htscodecs/tests/arith.test
+bcftools-1.21/htslib-1.21/htscodecs/tests/rANS_static_test.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/arith_dynamic_fuzz.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/fqzcomp_qual_fuzz.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/tokenise_name3_test.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/arith_dynamic_test.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/fqzcomp_qual_test.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/rans4x8.test
+bcftools-1.21/htslib-1.21/htscodecs/tests/fqzcomp_qual_fuzzrt.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/tok3.test
+bcftools-1.21/htslib-1.21/htscodecs/tests/tokenise_name3_fuzz.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/rANS_static4x16pr_fuzz.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/q8
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q4.2
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/qvar.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q40+dir.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/qvar.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q40+dir.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/qvar.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q8.2
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q8.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q8.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/qvar.2
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q40+dir.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q4.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q4.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q8.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q4.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/fqzcomp/q40+dir.2
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/q40+dir
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.8
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.193
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.65
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.128
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.4
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.4
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.192
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.192
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.193
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q40+dir.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q40+dir.8
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/qvar.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.64
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q40+dir.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.129
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q40+dir.4
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/qvar.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q40+dir.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.129
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q40+dir.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/qvar.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.64
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.65
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q4.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.128
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/q8.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x16/qvar.4
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/qvar
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.8
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.193
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/qvar.64
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q40+dir.65
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.65
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.128
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.192
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.192
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.193
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q40+dir.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/u32.65
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/u32.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q40+dir.8
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/u32.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.64
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q40+dir.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.129
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/qvar.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.129
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q40+dir.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/qvar.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/u32.4
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.64
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.65
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q4.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/qvar.65
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q40+dir.64
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/arith/q8.128
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/u32
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/q40+dir.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/qvar.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/q40+dir.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/qvar.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/q8.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/q4.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/q8.0
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/r4x8/q4.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/dat/q4
+bcftools-1.21/htslib-1.21/htscodecs/tests/entropy.test
+bcftools-1.21/htslib-1.21/htscodecs/tests/tokenise_name3_fuzzrt.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/01.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/02.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/20.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/nv.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/05.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/09.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/nv2.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.1
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/10.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.3
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/08.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/03.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/05.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.11
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.15
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.5
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/09.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv2.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.19
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/01.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/rr.names.7
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/02.names.17
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/nv.names.9
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/tok3/20.names.13
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/10.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/08.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/03.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/names/rr.names
+bcftools-1.21/htslib-1.21/htscodecs/tests/rans4x16.test
+bcftools-1.21/htslib-1.21/htscodecs/tests/rANS_static4x16pr_test.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/rANS_static_fuzz.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/varint_test.c
+bcftools-1.21/htslib-1.21/htscodecs/tests/entropy_fuzz.c
+bcftools-1.21/htslib-1.21/htscodecs/LICENSE.md
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/utils.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static4x16pr.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_word.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/arith_dynamic.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/c_range_coder.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_byte.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/arith_dynamic.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/htscodecs.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/c_simple_model.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rle.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rle.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/fqzcomp_qual.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/varint.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/pack.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static32x16pr_avx2.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/pack.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/permute.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static4x16.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/utils.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/htscodecs.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static32x16pr_avx512.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static32x16pr_neon.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/tokenise_name3.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/varint2.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/pooled_alloc.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/htscodecs_endian.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static32x16pr_sse4.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static16_int.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/tokenise_name3.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/version.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static32x16pr.c
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/rANS_static32x16pr.h
+bcftools-1.21/htslib-1.21/htscodecs/htscodecs/fqzcomp_qual.h
+bcftools-1.21/htslib-1.21/htscodecs/MAINTAINERS.md
+bcftools-1.21/htslib-1.21/config.guess
+bcftools-1.21/htslib-1.21/regidx.c
+bcftools-1.21/htslib-1.21/vcf.5
+bcftools-1.21/htslib-1.21/md5.c
+bcftools-1.21/htslib-1.21/NEWS
+bcftools-1.21/htslib-1.21/vcf_sweep.c
+bcftools-1.21/htslib-1.21/vcfutils.c
+bcftools-1.21/htslib-1.21/realn.c
+bcftools-1.21/htslib-1.21/m4/
+bcftools-1.21/htslib-1.21/m4/hts_hide_dynamic_syms.m4
+bcftools-1.21/htslib-1.21/m4/hts_prog_cc_warnings.m4
+bcftools-1.21/htslib-1.21/m4/hts_check_compile_flags_needed.m4
+bcftools-1.21/htslib-1.21/m4/pkg.m4
+bcftools-1.21/htslib-1.21/errmod.c
+bcftools-1.21/htslib-1.21/simd.c
+bcftools-1.21/htslib-1.21/header.c
+bcftools-1.21/htslib-1.21/htsfile.c
+bcftools-1.21/htslib-1.21/faidx.5
+bcftools-1.21/vcffilter.c
+bcftools-1.21/polysomy.c
+bcftools-1.21/dbuf.h
+bcftools-1.21/vcfgtcheck.c
+bcftools-1.21/edlib.h
+bcftools-1.21/vcfmerge.c
+bcftools-1.21/vcmp.c
+bcftools-1.21/prob1.h
+bcftools-1.21/vcfconvert.c
+bcftools-1.21/test/
+bcftools-1.21/test/fixref.5.out
+bcftools-1.21/test/filter.12.vcf
+bcftools-1.21/test/query.filter.3.vcf
+bcftools-1.21/test/split-vep.types.1.out
+bcftools-1.21/test/many.alleles.trim.out
+bcftools-1.21/test/concat.5.1.out
+bcftools-1.21/test/idx.3.out
+bcftools-1.21/test/query.54.out
+bcftools-1.21/test/query.10.out
+bcftools-1.21/test/consensus.overlaps.1.3.out
+bcftools-1.21/test/query.37.out
+bcftools-1.21/test/annotate26.tab
+bcftools-1.21/test/query.smpl.1.out
+bcftools-1.21/test/split.smpl.1.2.txt
+bcftools-1.21/test/fixref.4.out
+bcftools-1.21/test/annotate.missing.5.out
+bcftools-1.21/test/annotate18.out
+bcftools-1.21/test/norm.telomere.out
+bcftools-1.21/test/isec.b.vcf
+bcftools-1.21/test/consensus18.1.out
+bcftools-1.21/test/annotate9.out
+bcftools-1.21/test/mpileup.hwe.2.out
+bcftools-1.21/test/annotate27.tab
+bcftools-1.21/test/view64bit.4.vcf
+bcftools-1.21/test/filter.8.vcf
+bcftools-1.21/test/query.add-variantkey.vcf
+bcftools-1.21/test/merge.3.a.vcf
+bcftools-1.21/test/fill-AN-AC.out
+bcftools-1.21/test/mpileup.5.tab
+bcftools-1.21/test/prune.1.5.out
+bcftools-1.21/test/query.60.out
+bcftools-1.21/test/idx.vcf
+bcftools-1.21/test/remove-overlaps.1.4.out
+bcftools-1.21/test/annotate31.out
+bcftools-1.21/test/norm.merge.2.vcf
+bcftools-1.21/test/query.43.out
+bcftools-1.21/test/mpileup.hwe.samples
+bcftools-1.21/test/convert.gs.vcf
+bcftools-1.21/test/query.13.out
+bcftools-1.21/test/annotate.multi.vcf
+bcftools-1.21/test/mpileup.2.tab
+bcftools-1.21/test/split-vep.16.out
+bcftools-1.21/test/tag2tag.LPL.1.1.vcf
+bcftools-1.21/test/merge.4.a.vcf
+bcftools-1.21/test/atomize.split.2.2.out
+bcftools-1.21/test/gvcfz.2.1.out
+bcftools-1.21/test/query.string.2.vcf
+bcftools-1.21/test/check.gs.vcfids_chrom.gen
+bcftools-1.21/test/split-vep.5.out
+bcftools-1.21/test/view.7.out
+bcftools-1.21/test/isec-miss.2.1.vcf
+bcftools-1.21/test/view.GTisec.Hmv.out
+bcftools-1.21/test/query.pbinom.1.vcf
+bcftools-1.21/test/annotate25.vcf
+bcftools-1.21/test/filter.30.out
+bcftools-1.21/test/view.vectors.vcf
+bcftools-1.21/test/annotate.olap.2.out
+bcftools-1.21/test/norm.join-missing-ploidy.1.out
+bcftools-1.21/test/mpileup.6.tab
+bcftools-1.21/test/plugin-missing2ref.vcf
+bcftools-1.21/test/merge.gvcf.5.a.vcf
+bcftools-1.21/test/consensus.8f.out
+bcftools-1.21/test/isec-miss.1.3.vcf
+bcftools-1.21/test/create-bam-test
+bcftools-1.21/test/annotate15.out
+bcftools-1.21/test/annotate20.1.out
+bcftools-1.21/test/query.26.out
+bcftools-1.21/test/view.filter.11.out
+bcftools-1.21/test/fixref.3.fa
+bcftools-1.21/test/norm.rmdup.2.1.out
+bcftools-1.21/test/remove-overlaps.2.vcf
+bcftools-1.21/test/norm.symbolic.2.vcf
+bcftools-1.21/test/consensus.22.fa
+bcftools-1.21/test/query.filter.12.vcf
+bcftools-1.21/test/norm.3.fa
+bcftools-1.21/test/mplp.9.samples
+bcftools-1.21/test/merge.gvcf.2.out
+bcftools-1.21/test/consensus.22.vcf
+bcftools-1.21/test/af-dist.out
+bcftools-1.21/test/split-vep.7.out
+bcftools-1.21/test/fill-tags.3.out
+bcftools-1.21/test/convert.tsv.vcf
+bcftools-1.21/test/query.65.out
+bcftools-1.21/test/mpileup.hwe.vcf
+bcftools-1.21/test/norm.sort.1.out
+bcftools-1.21/test/annotate3.vcf
+bcftools-1.21/test/split-vep.2.out
+bcftools-1.21/test/query.smpl.vcf
+bcftools-1.21/test/reheader.3.out
+bcftools-1.21/test/split-vep.broken-LoF.2.out
+bcftools-1.21/test/merge.gvcf.10.ref
+bcftools-1.21/test/consensus.21.fa
+bcftools-1.21/test/annotate.missing.vcf
+bcftools-1.21/test/smpl-stats.1.out
+bcftools-1.21/test/filter.28.out
+bcftools-1.21/test/split-vep.gene-list.2.out
+bcftools-1.21/test/trio.out
+bcftools-1.21/test/view.GTsubset.NA1NA2.out
+bcftools-1.21/test/mendelian.4.out
+bcftools-1.21/test/query.22.out
+bcftools-1.21/test/query.34.out
+bcftools-1.21/test/query.filter-or.2.out
+bcftools-1.21/test/query.filter.id.4.out
+bcftools-1.21/test/merge.8.a.vcf
+bcftools-1.21/test/norm.symbolic.vcf
+bcftools-1.21/test/norm.string-tags.1.out
+bcftools-1.21/test/query.negative.vcf
+bcftools-1.21/test/view.GL-GP.vcf
+bcftools-1.21/test/reheader.samples2
+bcftools-1.21/test/mpileup.cAls.4.out
+bcftools-1.21/test/consensus3.out
+bcftools-1.21/test/mpileup.hwe.4.out
+bcftools-1.21/test/view.filter.annovar.3.out
+bcftools-1.21/test/consensus20.2.out
+bcftools-1.21/test/view.vcf
+bcftools-1.21/test/merge.b.vcf
+bcftools-1.21/test/merge.c.vcf
+bcftools-1.21/test/fill-tags-hwe.vcf
+bcftools-1.21/test/annotate10.hdr
+bcftools-1.21/test/atomize.split.5.1.out
+bcftools-1.21/test/mendelian.1.out
+bcftools-1.21/test/norm.symbolic.3.1.out
+bcftools-1.21/test/concat.4.b.vcf
+bcftools-1.21/test/norm.split.merge.vcf
+bcftools-1.21/test/concat.3.e.vcf
+bcftools-1.21/test/isec-miss.2.3.vcf
+bcftools-1.21/test/annotate24.src.vcf
+bcftools-1.21/test/idx.2.out
+bcftools-1.21/test/split-vep.15.out
+bcftools-1.21/test/view.vectors.C.out
+bcftools-1.21/test/annots9.tab
+bcftools-1.21/test/annotate17.1.tab
+bcftools-1.21/test/query.smpl.txt
+bcftools-1.21/test/annotate11.out
+bcftools-1.21/test/remove-overlaps.1.vcf
+bcftools-1.21/test/merge.gvcf.11.b.vcf
+bcftools-1.21/test/convert.hap-missing.haps
+bcftools-1.21/test/head.1.out
+bcftools-1.21/test/view.minmaxac.2.out
+bcftools-1.21/test/mpileup.vcf
+bcftools-1.21/test/setGT.2.vcf
+bcftools-1.21/test/query.66.out
+bcftools-1.21/test/consensus.18.fa
+bcftools-1.21/test/query.filter.9.vcf
+bcftools-1.21/test/annotate14.vcf
+bcftools-1.21/test/view.1.out
+bcftools-1.21/test/consensus.20.fa
+bcftools-1.21/test/view.GTsubset.NA1NA2NA3.out
+bcftools-1.21/test/norm.split.2.vcf
+bcftools-1.21/test/split-vep.4.out
+bcftools-1.21/test/split-vep.11.out
+bcftools-1.21/test/norm.merge.3.vcf
+bcftools-1.21/test/query.smpl.2.out
+bcftools-1.21/test/filter.13.vcf
+bcftools-1.21/test/filter.39.out
+bcftools-1.21/test/consensus5.fa
+bcftools-1.21/test/gtcheck.4.out
+bcftools-1.21/test/plugin-missing2ref.out.vcf
+bcftools-1.21/test/csq.ychr.vcf
+bcftools-1.21/test/annotate17.out
+bcftools-1.21/test/view.2.out
+bcftools-1.21/test/prune.1.vcf
+bcftools-1.21/test/23andme.fa
+bcftools-1.21/test/csq.3.out
+bcftools-1.21/test/split.1.8.out
+bcftools-1.21/test/split.grp.1.1.txt
+bcftools-1.21/test/query.smpl.5.out
+bcftools-1.21/test/annotate16.vcf
+bcftools-1.21/test/mpileup.1.out
+bcftools-1.21/test/gtcheck.ntop.1.out
+bcftools-1.21/test/sort.out
+bcftools-1.21/test/annotate24.dst.vcf
+bcftools-1.21/test/merge.gvcf.9d.vcf
+bcftools-1.21/test/merge.10.3.out
+bcftools-1.21/test/mpileup.X.out
+bcftools-1.21/test/annotate18.2.out
+bcftools-1.21/test/annotate.escape.1.tab
+bcftools-1.21/test/merge.gvcf.9.4.out
+bcftools-1.21/test/query.86.out
+bcftools-1.21/test/setGT.3.1.out
+bcftools-1.21/test/query.83.out
+bcftools-1.21/test/annotate8.out
+bcftools-1.21/test/aa.fa
+bcftools-1.21/test/split-vep.broken-LoF.out
+bcftools-1.21/test/query.string.vcf
+bcftools-1.21/test/setGT.5.2.out
+bcftools-1.21/test/annotate.missing.2.out
+bcftools-1.21/test/annotate12.out
+bcftools-1.21/test/query.81.out
+bcftools-1.21/test/consensus.beyond.fa
+bcftools-1.21/test/annotate.32.out
+bcftools-1.21/test/norm.split.5.vcf
+bcftools-1.21/test/norm.rmdup.5.out
+bcftools-1.21/test/merge.abc.out
+bcftools-1.21/test/fill-tags-hemi.vcf
+bcftools-1.21/test/split-vep.8.vcf
+bcftools-1.21/test/atomize.split.5.vcf
+bcftools-1.21/test/annotate25.1.out
+bcftools-1.21/test/merge.9.a.vcf
+bcftools-1.21/test/norm.m-any.vcf
+bcftools-1.21/test/consensus.beyond.1.out
+bcftools-1.21/test/annotate.missing.tab
+bcftools-1.21/test/norm.rmdup.2.2.out
+bcftools-1.21/test/consensus.15.fa
+bcftools-1.21/test/isec.ab.any.out
+bcftools-1.21/test/view.filter.7.out
+bcftools-1.21/test/mplp.10.samples
+bcftools-1.21/test/concat.4.a.vcf
+bcftools-1.21/test/annotate.id.1.out
+bcftools-1.21/test/mpileup.7.tab
+bcftools-1.21/test/convert.hap-missing.vcf
+bcftools-1.21/test/consensus7d.out
+bcftools-1.21/test/annotate19.7.out
+bcftools-1.21/test/filter.34.out
+bcftools-1.21/test/empty.idx_count.out
+bcftools-1.21/test/annotate.multi.1.out
+bcftools-1.21/test/prune.1.4.out
+bcftools-1.21/test/filter.8.out
+bcftools-1.21/test/annots.id.2.vcf
+bcftools-1.21/test/merge.gvcf.2.2.out
+bcftools-1.21/test/annotate20.3.out
+bcftools-1.21/test/mendelian.6.out
+bcftools-1.21/test/consensus.8c.out
+bcftools-1.21/test/idx.4.out
+bcftools-1.21/test/fill-tags.4.out
+bcftools-1.21/test/merge.gvcf.10.3.out
+bcftools-1.21/test/query.filter.10.vcf
+bcftools-1.21/test/checkploidy.vcf
+bcftools-1.21/test/merge.gvcf.10.2.out
+bcftools-1.21/test/split-vep.filter-missing-bt2098.vcf
+bcftools-1.21/test/dosage.1.out
+bcftools-1.21/test/query.30.out
+bcftools-1.21/test/split.1.6.out
+bcftools-1.21/test/mpileup.cAls.7.out
+bcftools-1.21/test/norm.4.1.out
+bcftools-1.21/test/query.filter.13.vcf
+bcftools-1.21/test/view.minmaxac.vcf
+bcftools-1.21/test/annotate28.2.out
+bcftools-1.21/test/vcf2sex.out
+bcftools-1.21/test/view.3.out
+bcftools-1.21/test/annotate14.out
+bcftools-1.21/test/filter.13.out
+bcftools-1.21/test/filter.31.out
+bcftools-1.21/test/annotate6.out
+bcftools-1.21/test/query.91.out
+bcftools-1.21/test/view.vectors.2.vcf
+bcftools-1.21/test/empty.idx.out
+bcftools-1.21/test/merge.LPL.4.out
+bcftools-1.21/test/convert.gvcf.out
+bcftools-1.21/test/merge.join.a.vcf
+bcftools-1.21/test/query.53.out
+bcftools-1.21/test/checkploidy.out
+bcftools-1.21/test/mendelian.2.out
+bcftools-1.21/test/fill-tags.5.out
+bcftools-1.21/test/filter.5.out
+bcftools-1.21/test/query.17.out
+bcftools-1.21/test/consensus5.out
+bcftools-1.21/test/call.af-fixation.vcf
+bcftools-1.21/test/query.filter.8.vcf
+bcftools-1.21/test/annotate.id.2.vcf
+bcftools-1.21/test/query.3.out
+bcftools-1.21/test/reheader.6.out
+bcftools-1.21/test/mpileup.c.1.out
+bcftools-1.21/test/roh.1.vcf.gz
+bcftools-1.21/test/gtcheck.1.out
+bcftools-1.21/test/filter.23.out
+bcftools-1.21/test/setGT.3.2.out
+bcftools-1.21/test/consensus.5.out
+bcftools-1.21/test/annotate28.3.out
+bcftools-1.21/test/fill-tags-AD.1.out
+bcftools-1.21/test/query.98.out
+bcftools-1.21/test/reheader.2.vcf
+bcftools-1.21/test/annotate18.1.vcf
+bcftools-1.21/test/norm.right-align.1.out
+bcftools-1.21/test/query.50.out
+bcftools-1.21/test/query.2.out
+bcftools-1.21/test/norm.split.merge.1.out
+bcftools-1.21/test/gtcheck.3.1.out
+bcftools-1.21/test/overlap.vcf
+bcftools-1.21/test/consensus.15.out
+bcftools-1.21/test/query.69.out
+bcftools-1.21/test/split-vep.1.out
+bcftools-1.21/test/convert.gvcf.vcf
+bcftools-1.21/test/mpileup.samples
+bcftools-1.21/test/trio-stats.out
+bcftools-1.21/test/annotate.id.2.2.out
+bcftools-1.21/test/csq.nchr.vcf
+bcftools-1.21/test/filter.3.vcf
+bcftools-1.21/test/prune.1.1.out
+bcftools-1.21/test/merge.6.a.vcf
+bcftools-1.21/test/annotate28.out
+bcftools-1.21/test/norm.5.2.out
+bcftools-1.21/test/split.smpl.1.3.txt
+bcftools-1.21/test/idx.3.vcf
+bcftools-1.21/test/idx_count.out
+bcftools-1.21/test/split-vep.24.out
+bcftools-1.21/test/norm.phased-join.vcf
+bcftools-1.21/test/consensus4.vcf
+bcftools-1.21/test/consensus2.1.out
+bcftools-1.21/test/annotate11.vcf
+bcftools-1.21/test/merge.noidx.a.vcf
+bcftools-1.21/test/annotate.id.2.out
+bcftools-1.21/test/mpileup.X.vcf
+bcftools-1.21/test/query.57.out
+bcftools-1.21/test/split.2.1.out
+bcftools-1.21/test/remove-overlaps.2.1.out
+bcftools-1.21/test/annots.olap.tab
+bcftools-1.21/test/mpileup.3.vcf
+bcftools-1.21/test/merge.gvcf.8.a.vcf
+bcftools-1.21/test/check.gs.vcfids_chrom.samples
+bcftools-1.21/test/perl-flt.vcf
+bcftools-1.21/test/roh.1.2.out
+bcftools-1.21/test/merge.9.2.out
+bcftools-1.21/test/norm.iupac.out
+bcftools-1.21/test/mpileup.cals.2.tab
+bcftools-1.21/test/split-vep.19.out
+bcftools-1.21/test/regions.tab
+bcftools-1.21/test/fixref.1.out
+bcftools-1.21/test/fixref.2.out
+bcftools-1.21/test/contrast1.txt
+bcftools-1.21/test/gtcheck.11.out
+bcftools-1.21/test/consensus.18.vcf
+bcftools-1.21/test/filter.11.out
+bcftools-1.21/test/mpileup.2.vcf
+bcftools-1.21/test/query.filter.id.vcf
+bcftools-1.21/test/query.16.out
+bcftools-1.21/test/annotate19.6.out
+bcftools-1.21/test/annotate12.vcf
+bcftools-1.21/test/filter.38.out
+bcftools-1.21/test/merge.5.a.vcf
+bcftools-1.21/test/concat.2.b.vcf
+bcftools-1.21/test/contrast.1.1.out
+bcftools-1.21/test/mpileup.cAls.3.out
+bcftools-1.21/test/trio-stats.vcf
+bcftools-1.21/test/norm.symbolic.3.fa
+bcftools-1.21/test/ad-bias.samples
+bcftools-1.21/test/overlap.2.out
+bcftools-1.21/test/annotate.out
+bcftools-1.21/test/query.variantkey.vcf
+bcftools-1.21/test/consensus.13.vcf
+bcftools-1.21/test/view.filter.annovar.2.out
+bcftools-1.21/test/view.sites.txt.gz.tbi
+bcftools-1.21/test/scatter.1.1.out
+bcftools-1.21/test/norm.split.5.1.out
+bcftools-1.21/test/filter.2.out
+bcftools-1.21/test/split-vep.12.out
+bcftools-1.21/test/annotate.missing-append.tab
+bcftools-1.21/test/consensus.vcf
+bcftools-1.21/test/merge.LPL.0.out
+bcftools-1.21/test/mpileup.4.out
+bcftools-1.21/test/query.55.out
+bcftools-1.21/test/query.filter.2.vcf
+bcftools-1.21/test/query.string.2.2.out
+bcftools-1.21/test/atomize.split.1.1.out
+bcftools-1.21/test/gtcheck.ntop.2.out
+bcftools-1.21/test/view-t.1.out
+bcftools-1.21/test/idx.4.bed
+bcftools-1.21/test/query.61.out
+bcftools-1.21/test/norm.4.vcf
+bcftools-1.21/test/split-vep.broken-LoF.vcf
+bcftools-1.21/test/annots13.tab
+bcftools-1.21/test/norm.telomere.vcf
+bcftools-1.21/test/view64bit.4.out
+bcftools-1.21/test/mpileup.hwe.3.out
+bcftools-1.21/test/annotate13.vcf
+bcftools-1.21/test/merge.join.b.vcf
+bcftools-1.21/test/view.sites.txt
+bcftools-1.21/test/mendelian.8.out
+bcftools-1.21/test/isec-miss.2.1.out
+bcftools-1.21/test/query.out
+bcftools-1.21/test/view.filter.2.vcf
+bcftools-1.21/test/annotate19.dst.vcf
+bcftools-1.21/test/norm.split.3.out
+bcftools-1.21/test/contrast0.txt
+bcftools-1.21/test/split-vep.6.out
+bcftools-1.21/test/mpileup.X.2.out
+bcftools-1.21/test/query.38.out
+bcftools-1.21/test/gtcheck.7.out
+bcftools-1.21/test/filter.7.vcf
+bcftools-1.21/test/concat.3.vcf.out
+bcftools-1.21/test/merge.gvcf.7.a.vcf
+bcftools-1.21/test/query.93.out
+bcftools-1.21/test/csq.gff3
+bcftools-1.21/test/fill-tags-AN0.vcf
+bcftools-1.21/test/split-vep.types.vcf
+bcftools-1.21/test/setGT.2.out
+bcftools-1.21/test/filter.4.vcf
+bcftools-1.21/test/reheader.samples4
+bcftools-1.21/test/merge.join.1.out
+bcftools-1.21/test/mpileup.4.samples
+bcftools-1.21/test/view.GL.vcf
+bcftools-1.21/test/filter.32.out
+bcftools-1.21/test/weird-chr-names.2.out
+bcftools-1.21/test/query.58.out
+bcftools-1.21/test/consensus.4.chain
+bcftools-1.21/test/fixref.2b.vcf
+bcftools-1.21/test/test-regidx.c
+bcftools-1.21/test/view-t.2.out
+bcftools-1.21/test/merge.2.both.out
+bcftools-1.21/test/variant-distance.2.out
+bcftools-1.21/test/gtcheck.1.gts.vcf
+bcftools-1.21/test/setGT.3.6.out
+bcftools-1.21/test/consensus.1.out
+bcftools-1.21/test/prune.2.1.out
+bcftools-1.21/test/setGT.5.vcf
+bcftools-1.21/test/select-tr-expr.3.out
+bcftools-1.21/test/view.filter.10.out
+bcftools-1.21/test/consensus22.1.out
+bcftools-1.21/test/query.41.out
+bcftools-1.21/test/remove-overlaps.1.5.out
+bcftools-1.21/test/setGT.3.out
+bcftools-1.21/test/merge.gvcf.3.out
+bcftools-1.21/test/merge.mrules.1.b.vcf
+bcftools-1.21/test/split-vep.3.out
+bcftools-1.21/test/norm.vcf
+bcftools-1.21/test/reheader.empty.hdr
+bcftools-1.21/test/consensus6.out
+bcftools-1.21/test/convert.hls.gt.legend
+bcftools-1.21/test/split.1.3.out
+bcftools-1.21/test/merge.noidx.b.vcf
+bcftools-1.21/test/concat.3.c.vcf
+bcftools-1.21/test/convert.hls.samples
+bcftools-1.21/test/annots2.vcf
+bcftools-1.21/test/query.filter.5.vcf
+bcftools-1.21/test/check.vcf
+bcftools-1.21/test/annots11.vcf
+bcftools-1.21/test/merge.gvcf.9.3.out
+bcftools-1.21/test/query.21.out
+bcftools-1.21/test/norm.5.1.out
+bcftools-1.21/test/annotate18.1.tab
+bcftools-1.21/test/norm.symbolic.fa
+bcftools-1.21/test/consensus.12.out
+bcftools-1.21/test/merge.9.1.out
+bcftools-1.21/test/norm.rmdup.2.out
+bcftools-1.21/test/consensus.11.vcf
+bcftools-1.21/test/norm.rmdup.2.vcf
+bcftools-1.21/test/roh.1.4.out
+bcftools-1.21/test/consensus.14.fa
+bcftools-1.21/test/consensus5.vcf
+bcftools-1.21/test/annots10.tab
+bcftools-1.21/test/fill-tags-AD.3.out
+bcftools-1.21/test/setGT.4.1.out
+bcftools-1.21/test/trio-stats.2.ped
+bcftools-1.21/test/remove-overlaps.1.3.out
+bcftools-1.21/test/annotate28.4.out
+bcftools-1.21/test/convert.hls.haps
+bcftools-1.21/test/concat.5.c.vcf
+bcftools-1.21/test/convert.hs.gt.hap
+bcftools-1.21/test/merge.gvcf.4.b.vcf
+bcftools-1.21/test/query.95.out
+bcftools-1.21/test/filter.27.out
+bcftools-1.21/test/merge.gvcf.8.out
+bcftools-1.21/test/filter.14.out
+bcftools-1.21/test/merge.2.b.vcf
+bcftools-1.21/test/convert.gs.pl.gen
+bcftools-1.21/test/split-vep.9.vcf
+bcftools-1.21/test/filter.string.1.1.out
+bcftools-1.21/test/concat.5.3.out
+bcftools-1.21/test/convert.gs.noids.vcf
+bcftools-1.21/test/norm.string-tags.vcf
+bcftools-1.21/test/annotate13.hdr
+bcftools-1.21/test/annotate.id.2.1.out
+bcftools-1.21/test/fixref.2a.vcf
+bcftools-1.21/test/query.7.out
+bcftools-1.21/test/split-vep.filter-missing-bt2098.1.out
+bcftools-1.21/test/mpileup.c.X.2.out
+bcftools-1.21/test/consensus.9.2.out
+bcftools-1.21/test/query.14.out
+bcftools-1.21/test/view.chrs.vcf
+bcftools-1.21/test/query.47.out
+bcftools-1.21/test/reheader.5.out
+bcftools-1.21/test/call-G.2.out
+bcftools-1.21/test/idx.2.vcf
+bcftools-1.21/test/convert.gt.noHead.ids.vcf
+bcftools-1.21/test/filter.15.out
+bcftools-1.21/test/merge.gvcf.10.1.out
+bcftools-1.21/test/atomize.split.1.0.out
+bcftools-1.21/test/setGT.6.1.out
+bcftools-1.21/test/consensus.8b.out
+bcftools-1.21/test/fixref.3.vcf
+bcftools-1.21/test/query.97.out
+bcftools-1.21/test/vcf2sex.vcf
+bcftools-1.21/test/reheader.samples
+bcftools-1.21/test/merge.gvcf.10.b.vcf
+bcftools-1.21/test/check.gs.chrom.gen
+bcftools-1.21/test/mplp.11.rgs
+bcftools-1.21/test/annotate4.vcf
+bcftools-1.21/test/view.9.out
+bcftools-1.21/test/annotate.olap.vcf
+bcftools-1.21/test/fixref.6.out
+bcftools-1.21/test/isec-miss.1.1.out
+bcftools-1.21/test/annotate13.out
+bcftools-1.21/test/tabix.2.3199812.out
+bcftools-1.21/test/fixploidy.samples
+bcftools-1.21/test/query.35.out
+bcftools-1.21/test/indel-stats.3.out
+bcftools-1.21/test/scatter.1.3.out
+bcftools-1.21/test/query.filter.6.vcf
+bcftools-1.21/test/view.dropgenotypes.out
+bcftools-1.21/test/annots-mark.vcf
+bcftools-1.21/test/merge.gvcf.8.b.vcf
+bcftools-1.21/test/query.5.out
+bcftools-1.21/test/annotate28.1.out
+bcftools-1.21/test/contrast.1.vcf
+bcftools-1.21/test/view.filter.vcf
+bcftools-1.21/test/mpileup.3.tab
+bcftools-1.21/test/annots.id.vcf
+bcftools-1.21/test/merge.gvcf.7.out
+bcftools-1.21/test/query.filter.id.3.out
+bcftools-1.21/test/norm.phased-split.vcf
+bcftools-1.21/test/fixref.7.out
+bcftools-1.21/test/call.af-fixation.3.out
+bcftools-1.21/test/csq.ychr.gff
+bcftools-1.21/test/query.79.out
+bcftools-1.21/test/fill-tags-VAF.out
+bcftools-1.21/test/merge.gvcf.9.2.out
+bcftools-1.21/test/query.68.out
+bcftools-1.21/test/split-vep.22.out
+bcftools-1.21/test/query.85.out
+bcftools-1.21/test/head.2.out
+bcftools-1.21/test/convert.hs.ids.hap
+bcftools-1.21/test/merge.abc.3.out
+bcftools-1.21/test/view.filter.3.out
+bcftools-1.21/test/idx.2.bed
+bcftools-1.21/test/query.gtidx.2.out
+bcftools-1.21/test/gvcf.merge.2.vcf
+bcftools-1.21/test/merge.LPL.1.out
+bcftools-1.21/test/view64bit.2.out
+bcftools-1.21/test/reheader.2.hdr
+bcftools-1.21/test/annotate17.1.vcf
+bcftools-1.21/test/consensus.12.fa
+bcftools-1.21/test/view64bit.5.vcf
+bcftools-1.21/test/query.filter-or.vcf
+bcftools-1.21/test/query.allele-length.tsv
+bcftools-1.21/test/stats.counts.chk
+bcftools-1.21/test/consensus.11.fa
+bcftools-1.21/test/merge.abc.2.out
+bcftools-1.21/test/mpileup.cAls.6.out
+bcftools-1.21/test/view.GTisec.H.out
+bcftools-1.21/test/filter.3.out
+bcftools-1.21/test/call-G.2.vcf
+bcftools-1.21/test/view.6.out
+bcftools-1.21/test/stats.vaf.1.chk
+bcftools-1.21/test/overlap.neg2.out
+bcftools-1.21/test/filter.string.1.vcf
+bcftools-1.21/test/view.filter.9.out
+bcftools-1.21/test/annotate4.out
+bcftools-1.21/test/csq.chr.gff3
+bcftools-1.21/test/merge.gvcf.9e.vcf
+bcftools-1.21/test/prune.1.2.out
+bcftools-1.21/test/split-vep.3.vcf
+bcftools-1.21/test/consensus3.2.out
+bcftools-1.21/test/fixref.3.out
+bcftools-1.21/test/query.33.out
+bcftools-1.21/test/view.GP.vcf
+bcftools-1.21/test/checkploidy.3.out
+bcftools-1.21/test/split.1.vcf
+bcftools-1.21/test/annotate27.vcf
+bcftools-1.21/test/filter.36.out
+bcftools-1.21/test/filter.9.out
+bcftools-1.21/test/split-vep.gene-list.txt
+bcftools-1.21/test/weird-chr-names.3.out
+bcftools-1.21/test/atomize.split.5.2.out
+bcftools-1.21/test/call-G.2.1.out
+bcftools-1.21/test/merge.gvcf.9.1.out
+bcftools-1.21/test/gtcheck.5.vcf
+bcftools-1.21/test/annotate23.tab
+bcftools-1.21/test/concat.4.vcf.out
+bcftools-1.21/test/query.smpl.6.out
+bcftools-1.21/test/aa.vcf
+bcftools-1.21/test/setGT.1.out
+bcftools-1.21/test/query.67.out
+bcftools-1.21/test/reheader.3.fai
+bcftools-1.21/test/gtcheck.5.out
+bcftools-1.21/test/convert.hls.gt.samples
+bcftools-1.21/test/query.90.out
+bcftools-1.21/test/gvcf.merge.1.vcf
+bcftools-1.21/test/roh.1.tab.gz
+bcftools-1.21/test/query.71.out
+bcftools-1.21/test/mendelian.3.out
+bcftools-1.21/test/concat.3.d.vcf
+bcftools-1.21/test/consensus20.3.out
+bcftools-1.21/test/mpileup.cals.1.vcf
+bcftools-1.21/test/merge.gvcf.2.c.vcf
+bcftools-1.21/test/fill-tags.out
+bcftools-1.21/test/annotate15.hdr
+bcftools-1.21/test/annotate.olap.1.out
+bcftools-1.21/test/fill-tags.2.out
+bcftools-1.21/test/split-vep.13.out
+bcftools-1.21/test/merge.gvcf.10.4.out
+bcftools-1.21/test/split-vep.10.out
+bcftools-1.21/test/merge.mrules.1.a.vcf
+bcftools-1.21/test/filter.6.out
+bcftools-1.21/test/mpileup.c.X.vcf
+bcftools-1.21/test/norm.merge.2.out
+bcftools-1.21/test/plugin1.vcf
+bcftools-1.21/test/dosage.vcf
+bcftools-1.21/test/query.27.out
+bcftools-1.21/test/query.88.out
+bcftools-1.21/test/mpileup.ped
+bcftools-1.21/test/dosage.3.out
+bcftools-1.21/test/consensus.14.out
+bcftools-1.21/test/roh.1.vcf.gz.csi
+bcftools-1.21/test/guess-ploidy.PL.out
+bcftools-1.21/test/mpileup.4.tab
+bcftools-1.21/test/norm.iupac.vcf
+bcftools-1.21/test/query.39.out
+bcftools-1.21/test/split-vep.25.out
+bcftools-1.21/test/consensus.16.out
+bcftools-1.21/test/convert.hs.gt.ids.hap
+bcftools-1.21/test/prune.1.7.out
+bcftools-1.21/test/concat.3.a.vcf
+bcftools-1.21/test/query.12.out
+bcftools-1.21/test/check_merge.chk
+bcftools-1.21/test/view.omitgenotypes.vcf
+bcftools-1.21/test/query.8.out
+bcftools-1.21/test/view.filter.annovar.1.out
+bcftools-1.21/test/mpileup.5.out
+bcftools-1.21/test/ex2.vcf
+bcftools-1.21/test/split-vep.gene-list.vcf
+bcftools-1.21/test/norm.split.and.norm.out
+bcftools-1.21/test/reheader.2.out
+bcftools-1.21/test/norm.split.vcf
+bcftools-1.21/test/annotate19.2.out
+bcftools-1.21/test/norm.merge.vcf
+bcftools-1.21/test/consensus.12.vcf
+bcftools-1.21/test/csq.fa
+bcftools-1.21/test/norm.split.4.2.out
+bcftools-1.21/test/select-tr-expr.1.out
+bcftools-1.21/test/gvcfz.2.out
+bcftools-1.21/test/ref.out
+bcftools-1.21/test/norm.rmdup.3.2.out
+bcftools-1.21/test/gtcheck.1.2.out
+bcftools-1.21/test/mpileup.c.vcf
+bcftools-1.21/test/setGT.4.2.out
+bcftools-1.21/test/mpileup.cAls.5.out
+bcftools-1.21/test/annotate18.2.tab
+bcftools-1.21/test/dosage.2.out
+bcftools-1.21/test/query.59.out
+bcftools-1.21/test/view-a.1.out
+bcftools-1.21/test/view64bit.3.vcf
+bcftools-1.21/test/isec.ab.C.out
+bcftools-1.21/test/check.gs.vcfids.samples
+bcftools-1.21/test/filter.24.out
+bcftools-1.21/test/convert.gs.gt.ids.gen
+bcftools-1.21/test/merge.gvcf.5.b.vcf
+bcftools-1.21/test/merge.5.out
+bcftools-1.21/test/query.smpl.11.txt
+bcftools-1.21/test/consensus22.2.out
+bcftools-1.21/test/annots12.vcf
+bcftools-1.21/test/view.filter.5.out
+bcftools-1.21/test/norm.sort.2.out
+bcftools-1.21/test/consensus.tab
+bcftools-1.21/test/split.2.vcf
+bcftools-1.21/test/merge.8.out
+bcftools-1.21/test/consensus19.1.out
+bcftools-1.21/test/reheader.1.out.bcf
+bcftools-1.21/test/fill-tags-hemi.2.out
+bcftools-1.21/test/split.1.7.out
+bcftools-1.21/test/annotate19.4.out
+bcftools-1.21/test/prune.1.6.out
+bcftools-1.21/test/annotate.missing.3.out
+bcftools-1.21/test/tag2tag.LPL.1.vcf
+bcftools-1.21/test/fill-tags-func.out
+bcftools-1.21/test/fixploidy.vcf
+bcftools-1.21/test/setGT.samples.txt
+bcftools-1.21/test/annotate27.out
+bcftools-1.21/test/remove-overlaps.3.vcf
+bcftools-1.21/test/query.98.2.out
+bcftools-1.21/test/consensus.11.2.out
+bcftools-1.21/test/split.1.5.out
+bcftools-1.21/test/annots9.vcf
+bcftools-1.21/test/gtcheck.8.out
+bcftools-1.21/test/annotate17.3.out
+bcftools-1.21/test/annotate19.5.out
+bcftools-1.21/test/missing2ref.out
+bcftools-1.21/test/ref.vcf
+bcftools-1.21/test/norm.split.out
+bcftools-1.21/test/setGT.6.vcf
+bcftools-1.21/test/view.sites.1.out
+bcftools-1.21/test/reheader.1.out
+bcftools-1.21/test/stats.vaf.vcf
+bcftools-1.21/test/csq.chr.out
+bcftools-1.21/test/view.4.out
+bcftools-1.21/test/norm.merge.out
+bcftools-1.21/test/consensus.overlaps.1.vcf
+bcftools-1.21/test/norm.split.merge.2.out
+bcftools-1.21/test/filter.7.out
+bcftools-1.21/test/fill-tags-VAF.vcf
+bcftools-1.21/test/merge.11.1.out
+bcftools-1.21/test/mpileup.cAls.2.out
+bcftools-1.21/test/check.chk
+bcftools-1.21/test/merge.gvcf.11.a.vcf
+bcftools-1.21/test/select-tr-expr.2.out
+bcftools-1.21/test/consensus7b.out
+bcftools-1.21/test/annots4.tab
+bcftools-1.21/test/norm.symbolic.3.vcf
+bcftools-1.21/test/split-vep.26.out
+bcftools-1.21/test/query.24.out
+bcftools-1.21/test/empty.vcf
+bcftools-1.21/test/guess-ploidy.GL.out
+bcftools-1.21/test/tag2tag.LPL.1.2.vcf
+bcftools-1.21/test/scatter.1.vcf
+bcftools-1.21/test/query.32.out
+bcftools-1.21/test/annotate34.out
+bcftools-1.21/test/norm.atom-split-norm.1.out
+bcftools-1.21/test/merge.gvcf.9a.vcf
+bcftools-1.21/test/split-vep.23.out
+bcftools-1.21/test/annotate.missing-append.1.out
+bcftools-1.21/test/csq.nchr.fa
+bcftools-1.21/test/parental-origin.5.out
+bcftools-1.21/test/consensus.21.vcf
+bcftools-1.21/test/annotate34.vcf
+bcftools-1.21/test/merge.gvcf.11.1.out
+bcftools-1.21/test/norm.rmdup.4.out
+bcftools-1.21/test/consensus.1.chain
+bcftools-1.21/test/annotate21.vcf
+bcftools-1.21/test/annotate.match.1.1.out
+bcftools-1.21/test/weird-chr-names.vcf
+bcftools-1.21/test/consensus.2.chain
+bcftools-1.21/test/query.filter-type.vcf
+bcftools-1.21/test/annotate23.out
+bcftools-1.21/test/overlap.1.out
+bcftools-1.21/test/convert.gt.noHead.vcf
+bcftools-1.21/test/test.pl
+bcftools-1.21/test/mpileup.hwe.1b.out
+bcftools-1.21/test/consensus.overlaps.1.1.out
+bcftools-1.21/test/query.20.out
+bcftools-1.21/test/gtcheck.3.pairs
+bcftools-1.21/test/consensus.9.vcf
+bcftools-1.21/test/prune.2.vcf
+bcftools-1.21/test/norm.rmdup.3.1.out
+bcftools-1.21/test/consensus.16.vcf
+bcftools-1.21/test/norm.merge.strict.out
+bcftools-1.21/test/query.46.out
+bcftools-1.21/test/merge.gvcf.11.c.vcf
+bcftools-1.21/test/merge.7.a.vcf
+bcftools-1.21/test/contrast.out
+bcftools-1.21/test/consensus7.vcf
+bcftools-1.21/test/annotate25.tab
+bcftools-1.21/test/merge.gvcf.10.fa
+bcftools-1.21/test/query.string.2.out
+bcftools-1.21/test/annotate26.out
+bcftools-1.21/test/annotate29.out
+bcftools-1.21/test/merge.11.a.vcf
+bcftools-1.21/test/trio.vcf
+bcftools-1.21/test/parental-origin.1.out
+bcftools-1.21/test/merge.LPL.5.out
+bcftools-1.21/test/norm.3.out
+bcftools-1.21/test/merge.noidx.c.vcf
+bcftools-1.21/test/split-vep.12.2.out
+bcftools-1.21/test/merge.6.b.vcf
+bcftools-1.21/test/norm.right-align.fa
+bcftools-1.21/test/consensus.19.vcf
+bcftools-1.21/test/ad-bias.2.vcf
+bcftools-1.21/test/stats.B.chk
+bcftools-1.21/test/norm.split.4.vcf
+bcftools-1.21/test/atomize.split.4.vcf
+bcftools-1.21/test/consensus.9.1.fa
+bcftools-1.21/test/filter.40.out
+bcftools-1.21/test/annotate2.vcf
+bcftools-1.21/test/split-vep.filter.1.out
+bcftools-1.21/test/annotate2.out
+bcftools-1.21/test/norm.split.merge.4.out
+bcftools-1.21/test/gtcheck.3.vcf
+bcftools-1.21/test/gtcheck.1.vcf
+bcftools-1.21/test/trio-stats.ped
+bcftools-1.21/test/convert.hls.legend
+bcftools-1.21/test/norm.rmdup.1.out
+bcftools-1.21/test/query.filter.id.3.txt
+bcftools-1.21/test/query.18.out
+bcftools-1.21/test/split.1.4.out
+bcftools-1.21/test/merge.gvcf.9c.vcf
+bcftools-1.21/test/atomize.split.3.vcf
+bcftools-1.21/test/setGT.3.5.out
+bcftools-1.21/test/annotate.escape.1.1.out
+bcftools-1.21/test/norm.atom-split-norm.fa
+bcftools-1.21/test/annotate.match.1.vcf
+bcftools-1.21/test/consensus.20.vcf
+bcftools-1.21/test/filter.17.out
+bcftools-1.21/test/consensus.3.chain
+bcftools-1.21/test/mpileup.3.samples
+bcftools-1.21/test/consensus3.vcf
+bcftools-1.21/test/stats.a.vcf
+bcftools-1.21/test/query.25.out
+bcftools-1.21/test/filter.1.vcf
+bcftools-1.21/test/query.44.out
+bcftools-1.21/test/annots11.tab
+bcftools-1.21/test/idx.4.vcf
+bcftools-1.21/test/call.af-fixation.2.out
+bcftools-1.21/test/filter.37.out
+bcftools-1.21/test/annotate.match.1.2.out
+bcftools-1.21/test/consensus.17.bed
+bcftools-1.21/test/convert.gs.gt.ids.gen6
+bcftools-1.21/test/annotate.missing.4.out
+bcftools-1.21/test/annotate19.1.out
+bcftools-1.21/test/variant-distance.vcf
+bcftools-1.21/test/merge.LPL.a.vcf
+bcftools-1.21/test/annotate16.out
+bcftools-1.21/test/merge.gvcf.3.b.vcf
+bcftools-1.21/test/norm.right-align.vcf
+bcftools-1.21/test/annotate.id.vcf
+bcftools-1.21/test/query.filter.id.1.out
+bcftools-1.21/test/concat.5.out
+bcftools-1.21/test/split-vep.mixed-list.txt
+bcftools-1.21/test/split-vep.10.vcf
+bcftools-1.21/test/view.minmaxac.1.out
+bcftools-1.21/test/annotate.tab
+bcftools-1.21/test/merge.6.out
+bcftools-1.21/test/ad-bias.2.out
+bcftools-1.21/test/consensus7c.out
+bcftools-1.21/test/norm.2.fa
+bcftools-1.21/test/fill-tags-hwe.out
+bcftools-1.21/test/weird-chr-names.4.out
+bcftools-1.21/test/reheader.samples3
+bcftools-1.21/test/call.af-fixation.1.out
+bcftools-1.21/test/view.filter.12.out
+bcftools-1.21/test/atomize.split.2.vcf
+bcftools-1.21/test/annots28.tab
+bcftools-1.21/test/merge.10.1.out
+bcftools-1.21/test/norm.phased-join.1.out
+bcftools-1.21/test/merge.10.2.out
+bcftools-1.21/test/mpileup.2.out
+bcftools-1.21/test/norm.split.merge.3.out
+bcftools-1.21/test/parental-origin.3.out
+bcftools-1.21/test/split-vep.12.3.out
+bcftools-1.21/test/fill-tags.3.smpl
+bcftools-1.21/test/reheader.hdr
+bcftools-1.21/test/ex3.sam
+bcftools-1.21/test/isec-miss.1.regs.txt
+bcftools-1.21/test/annotate24.out
+bcftools-1.21/test/merge.gvcf.10.5.out
+bcftools-1.21/test/concat.3.b.vcf
+bcftools-1.21/test/fill-tags-AN0.out
+bcftools-1.21/test/filter.1.out
+bcftools-1.21/test/merge.2.none.out
+bcftools-1.21/test/fixref.vcf
+bcftools-1.21/test/roh.1.1.out
+bcftools-1.21/test/csq.2.gff
+bcftools-1.21/test/merge.7.b.vcf
+bcftools-1.21/test/gtcheck.10.out
+bcftools-1.21/test/mpileup.5.vcf
+bcftools-1.21/test/consensus21.1.out
+bcftools-1.21/test/query.filter-or.1.out
+bcftools-1.21/test/query.gtidx.1.vcf
+bcftools-1.21/test/view64bit.1.out
+bcftools-1.21/test/view.GTisec.Hm.out
+bcftools-1.21/test/query.string.1.out
+bcftools-1.21/test/query.84.out
+bcftools-1.21/test/gtcheck.6.1.out
+bcftools-1.21/test/stats.b.vcf
+bcftools-1.21/test/indel-stats.2.out
+bcftools-1.21/test/query.92.out
+bcftools-1.21/test/convert.hs.gt.samples
+bcftools-1.21/test/tag2tag.LPL.1.3.vcf
+bcftools-1.21/test/query.77.out
+bcftools-1.21/test/parental-origin.4.out
+bcftools-1.21/test/filter.22.out
+bcftools-1.21/test/concat.1.a.vcf
+bcftools-1.21/test/filter.41.out
+bcftools-1.21/test/split.smpl.1.4.txt
+bcftools-1.21/test/merge.8.b.vcf
+bcftools-1.21/test/reheader.4.out
+bcftools-1.21/test/merge.gvcf.2.a.1.out
+bcftools-1.21/test/setGT.3.4.out
+bcftools-1.21/test/consensus.14.vcf
+bcftools-1.21/test/query.64.out
+bcftools-1.21/test/query.99.out
+bcftools-1.21/test/norm.rmdup.vcf
+bcftools-1.21/test/filter.29.out
+bcftools-1.21/test/view-t.vcf
+bcftools-1.21/test/query.15.out
+bcftools-1.21/test/norm.right-align.gff
+bcftools-1.21/test/consensus2.vcf
+bcftools-1.21/test/split-vep.17.out
+bcftools-1.21/test/view64bit.5.out
+bcftools-1.21/test/query.96.out
+bcftools-1.21/test/parental-origin.2.out
+bcftools-1.21/test/merge.gvcf.2.b.vcf
+bcftools-1.21/test/split.1.2.out
+bcftools-1.21/test/merge.11.b.vcf
+bcftools-1.21/test/setGT.3.3.out
+bcftools-1.21/test/norm.4.2.out
+bcftools-1.21/test/consensus8.vcf
+bcftools-1.21/test/concat.2.bcf.out
+bcftools-1.21/test/consensus4.out
+bcftools-1.21/test/consensus.overlaps.1.4.out
+bcftools-1.21/test/idx.1.vcf
+bcftools-1.21/test/query.78.out
+bcftools-1.21/test/view-a.vcf
+bcftools-1.21/test/annotate7.out
+bcftools-1.21/test/concat.3.0.vcf
+bcftools-1.21/test/view.filter.annovar.vcf
+bcftools-1.21/test/gvcfz.1.out
+bcftools-1.21/test/query.6.out
+bcftools-1.21/test/atomize.split.3.1.out
+bcftools-1.21/test/query.19.out
+bcftools-1.21/test/query.52.out
+bcftools-1.21/test/norm.setref.out
+bcftools-1.21/test/split-vep.2.vcf
+bcftools-1.21/test/view.GTisec.out
+bcftools-1.21/test/convert.vcf
+bcftools-1.21/test/indel-stats.1.out
+bcftools-1.21/test/filter.35.out
+bcftools-1.21/test/filter.2.vcf
+bcftools-1.21/test/gvcfz.vcf
+bcftools-1.21/test/ex1.gtf.gz
+bcftools-1.21/test/split-vep.gene-list.3.out
+bcftools-1.21/test/isec.ab.flt.out
+bcftools-1.21/test/view.PL.vcf
+bcftools-1.21/test/trio-stats.2.out
+bcftools-1.21/test/merge.gvcf.4.out
+bcftools-1.21/test/gtcheck.6.vcf
+bcftools-1.21/test/merge.gvcf.9b.vcf
+bcftools-1.21/test/norm.3.vcf
+bcftools-1.21/test/query.36.out
+bcftools-1.21/test/overlap.0.out
+bcftools-1.21/test/query.filter.11.vcf
+bcftools-1.21/test/query.94.out
+bcftools-1.21/test/query.header.vcf
+bcftools-1.21/test/csq.nchr.gff
+bcftools-1.21/test/norm.merge.4.vcf
+bcftools-1.21/test/isec.a.vcf
+bcftools-1.21/test/norm.phased-split.1.out
+bcftools-1.21/test/query.74.out
+bcftools-1.21/test/merge.LPL.b.vcf
+bcftools-1.21/test/norm.join-missing-ploidy.vcf
+bcftools-1.21/test/idx.1.out
+bcftools-1.21/test/consensus22.3.out
+bcftools-1.21/test/consensus.beyond.vcf
+bcftools-1.21/test/annotate18.1.out
+bcftools-1.21/test/query.vcf
+bcftools-1.21/test/indel-stats.vcf
+bcftools-1.21/test/query.72.out
+bcftools-1.21/test/scatter.1.2.out
+bcftools-1.21/test/aa.out
+bcftools-1.21/test/annotate22.out
+bcftools-1.21/test/consensus20.4.out
+bcftools-1.21/test/contrast.1.2.out
+bcftools-1.21/test/norm.merge.4.1.out
+bcftools-1.21/test/merge.10.b.vcf
+bcftools-1.21/test/filter.19.out
+bcftools-1.21/test/merge.gvcf.5.1.out
+bcftools-1.21/test/consensus7.fa
+bcftools-1.21/test/atomize.split.1.vcf
+bcftools-1.21/test/annotate20.2.out
+bcftools-1.21/test/annotate.missing.1.out
+bcftools-1.21/test/mpileup.cAls.out
+bcftools-1.21/test/csq.ychr.fa
+bcftools-1.21/test/mpileup.tab
+bcftools-1.21/test/merge.3.out
+bcftools-1.21/test/view.GTisec.mv.out
+bcftools-1.21/test/annotate21.out
+bcftools-1.21/test/split-vep.21.out
+bcftools-1.21/test/merge.2.a.vcf
+bcftools-1.21/test/mplp.samples
+bcftools-1.21/test/annotate.missing-append.vcf
+bcftools-1.21/test/overlap.neg1.out
+bcftools-1.21/test/isec.tab
+bcftools-1.21/test/view.GT.vcf
+bcftools-1.21/test/call-G.1.out
+bcftools-1.21/test/variant-distance.1.out
+bcftools-1.21/test/convert.hls.ids.legend
+bcftools-1.21/test/split-vep.filter.2.out
+bcftools-1.21/test/merge.a.vcf
+bcftools-1.21/test/gtcheck.4.vcf
+bcftools-1.21/test/reheader.3.vcf
+bcftools-1.21/test/merge.LPL.3.out
+bcftools-1.21/test/merge.gvcf.2.1.out
+bcftools-1.21/test/view.8.out
+bcftools-1.21/test/gvcf.merge.3.vcf
+bcftools-1.21/test/norm.split.4.1.out
+bcftools-1.21/test/mpileup.cals.8.out
+bcftools-1.21/test/consensus6.vcf
+bcftools-1.21/test/sort.vcf
+bcftools-1.21/test/query.gtidx.1.out
+bcftools-1.21/test/convert.gs.pl.samples
+bcftools-1.21/test/query.89.out
+bcftools-1.21/test/stats.chk
+bcftools-1.21/test/gtcheck.ntop.gts.vcf
+bcftools-1.21/test/regions.out
+bcftools-1.21/test/consensus.8e.out
+bcftools-1.21/test/annotate17.2.out
+bcftools-1.21/test/gtcheck.2.vcf
+bcftools-1.21/test/convert.gt.vcf
+bcftools-1.21/test/consensus.4.out
+bcftools-1.21/test/isec-miss.2.2.vcf
+bcftools-1.21/test/roh.1.tab.gz.tbi
+bcftools-1.21/test/query.49.out
+bcftools-1.21/test/query.filter.4.vcf
+bcftools-1.21/test/contrast.1.out
+bcftools-1.21/test/call-G.vcf
+bcftools-1.21/test/idx.out
+bcftools-1.21/test/annotate15.tab
+bcftools-1.21/test/gvcf.merge.1.out
+bcftools-1.21/test/query.nucleotide.vcf
+bcftools-1.21/test/annots4.vcf
+bcftools-1.21/test/annotate17.1.out
+bcftools-1.21/test/mpileup.cals.2.vcf
+bcftools-1.21/test/norm.fa
+bcftools-1.21/test/merge.gvcf.2.a.vcf
+bcftools-1.21/test/setGT.3.vcf
+bcftools-1.21/test/mendelian.7.out
+bcftools-1.21/test/annots-mark.1.out
+bcftools-1.21/test/view.filter.4.out
+bcftools-1.21/test/annotate19.3.out
+bcftools-1.21/test/concat.3.bcf.out
+bcftools-1.21/test/gtcheck.2.out
+bcftools-1.21/test/filter.18.out
+bcftools-1.21/test/view.filter.1.out
+bcftools-1.21/test/query.2.vcf
+bcftools-1.21/test/trio-dnm/
+bcftools-1.21/test/trio-dnm/trio-dnm.8.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.9.2.out
+bcftools-1.21/test/trio-dnm/trio-dnm.4.2.out
+bcftools-1.21/test/trio-dnm/trio-dnm.4.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.4.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.8.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.2.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.5.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.10.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.11.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.7.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.5.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.6.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.6.2.out
+bcftools-1.21/test/trio-dnm/trio-dnm.11.2.out
+bcftools-1.21/test/trio-dnm/trio-dnm.9.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.9.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.1.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.11.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.10.vcf
+bcftools-1.21/test/trio-dnm/trio-dnm.7.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.6.1.out
+bcftools-1.21/test/trio-dnm/trio-dnm.1.out
+bcftools-1.21/test/norm.split.merge.5.out
+bcftools-1.21/test/annotate5.out
+bcftools-1.21/test/roh.1.3.out
+bcftools-1.21/test/merge.5.b.vcf
+bcftools-1.21/test/split-vep.20.out
+bcftools-1.21/test/mpileup.cals.9.out
+bcftools-1.21/test/atomize.split.1.3.out
+bcftools-1.21/test/split-vep.6.vcf
+bcftools-1.21/test/consensus6.fa
+bcftools-1.21/test/annotate.match.1.tab
+bcftools-1.21/test/atomize.split.2.1.out
+bcftools-1.21/test/csq.2.out
+bcftools-1.21/test/csq/
+bcftools-1.21/test/csq/ENST00000263103-INS/
+bcftools-1.21/test/csq/ENST00000263103-INS/insertions.vcf
+bcftools-1.21/test/csq/ENST00000263103-INS/insertions.txt
+bcftools-1.21/test/csq/ENST00000263103-INS/ENST00000263103-INS.fa.fai
+bcftools-1.21/test/csq/ENST00000263103-INS/ENST00000263103-INS.fa
+bcftools-1.21/test/csq/ENST00000263103-INS/ENST00000263103-INS.gff
+bcftools-1.21/test/csq/ENST00000000000/
+bcftools-1.21/test/csq/ENST00000000000/ENST00000000000.gff
+bcftools-1.21/test/csq/ENST00000000000/ENST00000000000.fa.fai
+bcftools-1.21/test/csq/ENST00000000000/upstream-stop.cmd.out
+bcftools-1.21/test/csq/ENST00000000000/upstream-stop.vcf
+bcftools-1.21/test/csq/ENST00000000000/upstream-stop.cmd
+bcftools-1.21/test/csq/ENST00000000000/ENST00000000000.fa
+bcftools-1.21/test/csq/ENST00000536784/
+bcftools-1.21/test/csq/ENST00000536784/ENST00000536784.fa.fai
+bcftools-1.21/test/csq/ENST00000536784/ENST00000536784.fa
+bcftools-1.21/test/csq/ENST00000536784/not-a-start-lost.vcf
+bcftools-1.21/test/csq/ENST00000536784/not-a-start-lost.txt
+bcftools-1.21/test/csq/ENST00000536784/not-a-start-lost.txt-l
+bcftools-1.21/test/csq/ENST00000536784/ENST00000536784.gff
+bcftools-1.21/test/csq/ENST00000413103/
+bcftools-1.21/test/csq/ENST00000413103/ENST00000413103.fa
+bcftools-1.21/test/csq/ENST00000413103/ENST00000413103.fa.fai
+bcftools-1.21/test/csq/ENST00000413103/long-deletion.txt
+bcftools-1.21/test/csq/ENST00000413103/ENST00000413103.gff
+bcftools-1.21/test/csq/ENST00000413103/long-deletion.vcf
+bcftools-1.21/test/csq/ENSG00000173376/
+bcftools-1.21/test/csq/ENSG00000173376/synon.vcf
+bcftools-1.21/test/csq/ENSG00000173376/ENSG00000173376.gff
+bcftools-1.21/test/csq/ENSG00000173376/ENSG00000173376.fa.fai
+bcftools-1.21/test/csq/ENSG00000173376/ENSG00000173376.fa
+bcftools-1.21/test/csq/ENSG00000173376/synon.txt
+bcftools-1.21/test/csq/sort-csq
+bcftools-1.21/test/csq/ENST00000329454/
+bcftools-1.21/test/csq/ENST00000329454/ENST00000329454.gff
+bcftools-1.21/test/csq/ENST00000329454/boundary-deletion.txt
+bcftools-1.21/test/csq/ENST00000329454/boundary-deletion.vcf
+bcftools-1.21/test/csq/ENST00000329454/ENST00000329454.fa.fai
+bcftools-1.21/test/csq/ENST00000329454/boundary-deletion.txt-l
+bcftools-1.21/test/csq/ENST00000329454/ENST00000329454.fa
+bcftools-1.21/test/csq/ENST00000378322/
+bcftools-1.21/test/csq/ENST00000378322/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000378322/ENST00000378322.fa.fai
+bcftools-1.21/test/csq/ENST00000378322/end-overlap-tscript.vcf
+bcftools-1.21/test/csq/ENST00000378322/end-overlap-tscript.txt
+bcftools-1.21/test/csq/ENST00000378322/end-overlap-tscript.txt-l
+bcftools-1.21/test/csq/ENST00000378322/ascii-art.txt-l
+bcftools-1.21/test/csq/ENST00000378322/ENST00000378322.gff
+bcftools-1.21/test/csq/ENST00000378322/ENST00000378322.fa
+bcftools-1.21/test/csq/ENST00000448695/
+bcftools-1.21/test/csq/ENST00000448695/syn-and-splice-reg.vcf
+bcftools-1.21/test/csq/ENST00000448695/syn-and-splice-reg.txt
+bcftools-1.21/test/csq/ENST00000448695/ENST00000448695.fa
+bcftools-1.21/test/csq/ENST00000448695/ENST00000448695.gff
+bcftools-1.21/test/csq/ENST00000448695/ENST00000448695.fa.fai
+bcftools-1.21/test/csq/ENST00000368801/
+bcftools-1.21/test/csq/ENST00000368801/compound-lost.txt
+bcftools-1.21/test/csq/ENST00000368801/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000368801/compound-lost.vcf
+bcftools-1.21/test/csq/ENST00000368801/ENST00000368801.fa
+bcftools-1.21/test/csq/ENST00000368801/ENST00000368801.fa.fai
+bcftools-1.21/test/csq/ENST00000368801/ENST00000368801.gff
+bcftools-1.21/test/csq/ENST00000573314/
+bcftools-1.21/test/csq/ENST00000573314/ENST00000573314.fa.fai
+bcftools-1.21/test/csq/ENST00000573314/incorrect-insertion-overlap.txt-l
+bcftools-1.21/test/csq/ENST00000573314/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000573314/incorrect-insertion-overlap.txt
+bcftools-1.21/test/csq/ENST00000573314/ENST00000573314.gff
+bcftools-1.21/test/csq/ENST00000573314/ENST00000573314.fa
+bcftools-1.21/test/csq/ENST00000573314/ascii-art.txt-l
+bcftools-1.21/test/csq/ENST00000573314/incorrect-insertion-overlap.vcf
+bcftools-1.21/test/csq/ENST00000520868/
+bcftools-1.21/test/csq/ENST00000520868/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000520868/ENST00000520868.fa.fai
+bcftools-1.21/test/csq/ENST00000520868/long-deletion.txt
+bcftools-1.21/test/csq/ENST00000520868/ENST00000520868.gff
+bcftools-1.21/test/csq/ENST00000520868/long-deletion.vcf
+bcftools-1.21/test/csq/ENST00000520868/ENST00000520868.fa
+bcftools-1.21/test/csq/ENST00000381157/
+bcftools-1.21/test/csq/ENST00000381157/haploid-diploid.vcf
+bcftools-1.21/test/csq/ENST00000381157/ENST00000381157.fa
+bcftools-1.21/test/csq/ENST00000381157/haploid-diploid.txt
+bcftools-1.21/test/csq/ENST00000381157/ENST00000381157.fa.fai
+bcftools-1.21/test/csq/ENST00000381157/ENST00000381157.gff
+bcftools-1.21/test/csq/ENST00000420670/
+bcftools-1.21/test/csq/ENST00000420670/ENST00000420670.gff
+bcftools-1.21/test/csq/ENST00000420670/start-stop-lost.txt
+bcftools-1.21/test/csq/ENST00000420670/segfault.vcf
+bcftools-1.21/test/csq/ENST00000420670/ENST00000420670.fa
+bcftools-1.21/test/csq/ENST00000420670/start-stop-lost.vcf
+bcftools-1.21/test/csq/ENST00000420670/segfault.txt
+bcftools-1.21/test/csq/ENST00000420670/ENST00000420670.fa.fai
+bcftools-1.21/test/csq/ENST00000545279/
+bcftools-1.21/test/csq/ENST00000545279/splice-region-insert.vcf
+bcftools-1.21/test/csq/ENST00000545279/ENST00000545279.fa.fai
+bcftools-1.21/test/csq/ENST00000545279/ENST00000545279.gff
+bcftools-1.21/test/csq/ENST00000545279/splice-region-insert.txt
+bcftools-1.21/test/csq/ENST00000545279/ENST00000545279.fa
+bcftools-1.21/test/csq/ENST00000423372/
+bcftools-1.21/test/csq/ENST00000423372/insert3.vcf
+bcftools-1.21/test/csq/ENST00000423372/snps.txt
+bcftools-1.21/test/csq/ENST00000423372/ENST00000423372.gff
+bcftools-1.21/test/csq/ENST00000423372/ENST00000423372.fa
+bcftools-1.21/test/csq/ENST00000423372/insert3.txt
+bcftools-1.21/test/csq/ENST00000423372/insert3.txt-l
+bcftools-1.21/test/csq/ENST00000423372/snps.txt-l
+bcftools-1.21/test/csq/ENST00000423372/ENST00000423372.fa.fai
+bcftools-1.21/test/csq/ENST00000423372/snps.vcf
+bcftools-1.21/test/csq/ENST00000218032/
+bcftools-1.21/test/csq/ENST00000218032/start-lost-del.txt
+bcftools-1.21/test/csq/ENST00000218032/start-lost.vcf
+bcftools-1.21/test/csq/ENST00000218032/ENST00000218032.gff
+bcftools-1.21/test/csq/ENST00000218032/ENST00000218032.fa.fai
+bcftools-1.21/test/csq/ENST00000218032/start-lost-del.vcf
+bcftools-1.21/test/csq/ENST00000218032/ENST00000218032.fa
+bcftools-1.21/test/csq/ENST00000218032/start-lost.txt
+bcftools-1.21/test/csq/ENST00000218032/start-lost.txt-l
+bcftools-1.21/test/csq/ENST00000409523/
+bcftools-1.21/test/csq/ENST00000409523/long-overlapping-del.vcf
+bcftools-1.21/test/csq/ENST00000409523/ENST00000409523.fa.fai
+bcftools-1.21/test/csq/ENST00000409523/ENST00000409523.gff
+bcftools-1.21/test/csq/ENST00000409523/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000409523/long-overlapping-del.txt
+bcftools-1.21/test/csq/ENST00000409523/ENST00000409523.fa
+bcftools-1.21/test/csq/ENST00000360372/
+bcftools-1.21/test/csq/ENST00000360372/ENST00000360372.fa.fai
+bcftools-1.21/test/csq/ENST00000360372/ENST00000360372.fa
+bcftools-1.21/test/csq/ENST00000360372/ENST00000360372.gff
+bcftools-1.21/test/csq/ENST00000360372/mnp.vcf
+bcftools-1.21/test/csq/ENST00000360372/mnp.txt
+bcftools-1.21/test/csq/ENST00000410009/
+bcftools-1.21/test/csq/ENST00000410009/frameshift.1.cmd.out
+bcftools-1.21/test/csq/ENST00000410009/frameshift.vcf
+bcftools-1.21/test/csq/ENST00000410009/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000410009/frameshift.2.cmd
+bcftools-1.21/test/csq/ENST00000410009/frameshift.3.cmd
+bcftools-1.21/test/csq/ENST00000410009/frameshift.txt
+bcftools-1.21/test/csq/ENST00000410009/frameshift.1.cmd
+bcftools-1.21/test/csq/ENST00000410009/frameshift.3.cmd.out
+bcftools-1.21/test/csq/ENST00000410009/ENST00000410009.fa.fai
+bcftools-1.21/test/csq/ENST00000410009/frameshift.2.cmd.out
+bcftools-1.21/test/csq/ENST00000410009/ENST00000410009.fa
+bcftools-1.21/test/csq/ENST00000410009/ENST00000410009.gff
+bcftools-1.21/test/csq/ENST00000624631/
+bcftools-1.21/test/csq/ENST00000624631/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000624631/ambiguous.txt
+bcftools-1.21/test/csq/ENST00000624631/ENST00000624631.fa
+bcftools-1.21/test/csq/ENST00000624631/ENST00000624631.gff
+bcftools-1.21/test/csq/ENST00000624631/ambiguous.vcf
+bcftools-1.21/test/csq/ENST00000624631/ENST00000624631.fa.fai
+bcftools-1.21/test/csq/ENST00000318249/
+bcftools-1.21/test/csq/ENST00000318249/ENST00000318249.fa.fai
+bcftools-1.21/test/csq/ENST00000318249/start-lost.vcf
+bcftools-1.21/test/csq/ENST00000318249/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000318249/ENST00000318249.fa
+bcftools-1.21/test/csq/ENST00000318249/start-lost.vep
+bcftools-1.21/test/csq/ENST00000318249/ENST00000318249.gff
+bcftools-1.21/test/csq/ENST00000318249/start-lost.txt
+bcftools-1.21/test/csq/ENST00000318249/start-lost.vcf.ori
+bcftools-1.21/test/csq/ENST00000318249/start-lost.txt-l
+bcftools-1.21/test/csq/ENST00000373833/
+bcftools-1.21/test/csq/ENST00000373833/boundary-insertion.txt
+bcftools-1.21/test/csq/ENST00000373833/boundary-insertion.vcf
+bcftools-1.21/test/csq/ENST00000373833/ENST00000373833.fa
+bcftools-1.21/test/csq/ENST00000373833/ENST00000373833.gff
+bcftools-1.21/test/csq/ENST00000373833/ENST00000373833.fa.fai
+bcftools-1.21/test/csq/ENST00000373833/boundary-insertion.txt-l
+bcftools-1.21/test/csq/ENST00000227471/
+bcftools-1.21/test/csq/ENST00000227471/ENST00000227471.gff
+bcftools-1.21/test/csq/ENST00000227471/ENST00000227471.fa.fai
+bcftools-1.21/test/csq/ENST00000227471/insert-splice-vs-frameshift.vcf
+bcftools-1.21/test/csq/ENST00000227471/insert-splice-vs-frameshift.txt
+bcftools-1.21/test/csq/ENST00000227471/ENST00000227471.fa
+bcftools-1.21/test/csq/ENST00000573035-bt2212/
+bcftools-1.21/test/csq/ENST00000573035-bt2212/ENST00000573035-bt2212.fa
+bcftools-1.21/test/csq/ENST00000573035-bt2212/ENST00000573035-bt2212.gff
+bcftools-1.21/test/csq/ENST00000573035-bt2212/ENST00000573035-bt2212.fa.fai
+bcftools-1.21/test/csq/ENST00000573035-bt2212/complex-event.vcf
+bcftools-1.21/test/csq/ENST00000573035-bt2212/complex-event.txt
+bcftools-1.21/test/csq/ENST00000256452/
+bcftools-1.21/test/csq/ENST00000256452/ENST00000256452.fa
+bcftools-1.21/test/csq/ENST00000256452/ENST00000256452.fa.fai
+bcftools-1.21/test/csq/ENST00000256452/intron.vcf
+bcftools-1.21/test/csq/ENST00000256452/ENST00000256452.gff
+bcftools-1.21/test/csq/ENST00000256452/intron.txt
+bcftools-1.21/test/csq/ENST00000294661/
+bcftools-1.21/test/csq/ENST00000294661/ENST00000294661.fa
+bcftools-1.21/test/csq/ENST00000294661/ENST00000294661.fa.fai
+bcftools-1.21/test/csq/ENST00000294661/non-coding-boundary.txt
+bcftools-1.21/test/csq/ENST00000294661/non-coding-boundary.txt-l
+bcftools-1.21/test/csq/ENST00000294661/non-coding-boundary.vcf
+bcftools-1.21/test/csq/ENST00000294661/ENST00000294661.gff
+bcftools-1.21/test/csq/ENST00000271583/
+bcftools-1.21/test/csq/ENST00000271583/splice-acceptor.vcf
+bcftools-1.21/test/csq/ENST00000271583/ENST00000271583.fa
+bcftools-1.21/test/csq/ENST00000271583/splice-acceptor.txt
+bcftools-1.21/test/csq/ENST00000271583/ENST00000271583.gff
+bcftools-1.21/test/csq/ENST00000271583/ENST00000271583.fa.fai
+bcftools-1.21/test/csq/ENST00000269081/
+bcftools-1.21/test/csq/ENST00000269081/ENST00000269081.gff
+bcftools-1.21/test/csq/ENST00000269081/ENST00000269081.fa.fai
+bcftools-1.21/test/csq/ENST00000269081/ENST00000269081.fa
+bcftools-1.21/test/csq/ENST00000269081/stop-gained-not-inframe-insertion.txt
+bcftools-1.21/test/csq/ENST00000269081/stop-gained-not-inframe-insertion.vcf
+bcftools-1.21/test/csq/EDUMMY0002/
+bcftools-1.21/test/csq/EDUMMY0002/boundaries.txt
+bcftools-1.21/test/csq/EDUMMY0002/EDUMMY0002.fa
+bcftools-1.21/test/csq/EDUMMY0002/boundaries.vcf
+bcftools-1.21/test/csq/EDUMMY0002/EDUMMY0002.fa.fai
+bcftools-1.21/test/csq/EDUMMY0002/EDUMMY0002.gff
+bcftools-1.21/test/csq/ENSMUST00000121418/
+bcftools-1.21/test/csq/ENSMUST00000121418/filter-problem.2.cmd.out
+bcftools-1.21/test/csq/ENSMUST00000121418/filter-problem.3.cmd.out
+bcftools-1.21/test/csq/ENSMUST00000121418/filter-problem.vcf
+bcftools-1.21/test/csq/ENSMUST00000121418/ENSMUST00000121418.fa
+bcftools-1.21/test/csq/ENSMUST00000121418/filter-problem.1.cmd.out
+bcftools-1.21/test/csq/ENSMUST00000121418/filter-problem.1.cmd
+bcftools-1.21/test/csq/ENSMUST00000121418/ENSMUST00000121418.gff
+bcftools-1.21/test/csq/ENSMUST00000121418/ENSMUST00000121418.fa.fai
+bcftools-1.21/test/csq/ENSMUST00000121418/filter-problem.2.cmd
+bcftools-1.21/test/csq/ENSMUST00000121418/filter-problem.3.cmd
+bcftools-1.21/test/csq/ENST00000318249.2/
+bcftools-1.21/test/csq/ENST00000318249.2/ENST00000318249.2.fa.fai
+bcftools-1.21/test/csq/ENST00000318249.2/synonymous-start-lost.vcf
+bcftools-1.21/test/csq/ENST00000318249.2/ENST00000318249.2.gff
+bcftools-1.21/test/csq/ENST00000318249.2/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000318249.2/ENST00000318249.2.fa
+bcftools-1.21/test/csq/ENST00000318249.2/synonymous-start-lost.txt
+bcftools-1.21/test/csq/ENST00000375992/
+bcftools-1.21/test/csq/ENST00000375992/incorrect-synon-del-not-start-lost.txt
+bcftools-1.21/test/csq/ENST00000375992/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000375992/ENST00000375992.fa
+bcftools-1.21/test/csq/ENST00000375992/incorrect-synon-del-not-start-lost.vcf
+bcftools-1.21/test/csq/ENST00000375992/ENST00000375992.gff
+bcftools-1.21/test/csq/ENST00000375992/ENST00000375992.fa.fai
+bcftools-1.21/test/csq/ENST00000436063/
+bcftools-1.21/test/csq/ENST00000436063/ENST00000436063.fa
+bcftools-1.21/test/csq/ENST00000436063/insert-before-utr.txt
+bcftools-1.21/test/csq/ENST00000436063/ENST00000436063.gff
+bcftools-1.21/test/csq/ENST00000436063/ENST00000436063.fa.fai
+bcftools-1.21/test/csq/ENST00000436063/insert-before-utr.vcf
+bcftools-1.21/test/csq/ENSMUST00000133836/
+bcftools-1.21/test/csq/ENSMUST00000133836/ENSMUST00000133836.fa.fai
+bcftools-1.21/test/csq/ENSMUST00000133836/filter-problem.vcf
+bcftools-1.21/test/csq/ENSMUST00000133836/filter-problem.1.cmd.out
+bcftools-1.21/test/csq/ENSMUST00000133836/filter-problem.1.cmd
+bcftools-1.21/test/csq/ENSMUST00000133836/ENSMUST00000133836.gff
+bcftools-1.21/test/csq/ENSMUST00000133836/ENSMUST00000133836.fa
+bcftools-1.21/test/csq/EDUMMY0003/
+bcftools-1.21/test/csq/EDUMMY0003/EDUMMY0003.gff
+bcftools-1.21/test/csq/EDUMMY0003/EDUMMY0003.fa.fai
+bcftools-1.21/test/csq/EDUMMY0003/EDUMMY0003.fa
+bcftools-1.21/test/csq/EDUMMY0003/long-del.vcf
+bcftools-1.21/test/csq/EDUMMY0003/long-del.txt
+bcftools-1.21/test/csq/make-csq-test-by-region
+bcftools-1.21/test/csq/ENST00000557788/
+bcftools-1.21/test/csq/ENST00000557788/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000557788/ENST00000557788.fa
+bcftools-1.21/test/csq/ENST00000557788/long-overlap-del.vcf
+bcftools-1.21/test/csq/ENST00000557788/ENST00000557788.fa.fai
+bcftools-1.21/test/csq/ENST00000557788/ENST00000557788.gff
+bcftools-1.21/test/csq/ENST00000557788/long-overlap-del.txt
+bcftools-1.21/test/csq/ENST00000420190/
+bcftools-1.21/test/csq/ENST00000420190/ENST00000420190.fa.fai
+bcftools-1.21/test/csq/ENST00000420190/ENST00000420190.gff
+bcftools-1.21/test/csq/ENST00000420190/abort-in-csq-push.txt
+bcftools-1.21/test/csq/ENST00000420190/abort-in-csq-push.vcf
+bcftools-1.21/test/csq/ENST00000420190/ENST00000420190.fa
+bcftools-1.21/test/csq/ENST00000519442/
+bcftools-1.21/test/csq/ENST00000519442/synon-splice-region-del.txt
+bcftools-1.21/test/csq/ENST00000519442/ENST00000519442.fa
+bcftools-1.21/test/csq/ENST00000519442/synon-splice-region-del.vcf
+bcftools-1.21/test/csq/ENST00000519442/ENST00000519442.fa.fai
+bcftools-1.21/test/csq/ENST00000519442/ENST00000519442.gff
+bcftools-1.21/test/csq/ENST00000520795/
+bcftools-1.21/test/csq/ENST00000520795/long-inside-del.txt-l
+bcftools-1.21/test/csq/ENST00000520795/long-inside-del.txt
+bcftools-1.21/test/csq/ENST00000520795/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000520795/long-inside-del.vcf
+bcftools-1.21/test/csq/ENST00000520795/ascii-art.txt-l
+bcftools-1.21/test/csq/ENST00000520795/ENST00000520795.fa.fai
+bcftools-1.21/test/csq/ENST00000520795/ENST00000520795.fa
+bcftools-1.21/test/csq/ENST00000520795/ENST00000520795.gff
+bcftools-1.21/test/csq/ENST00000580206/
+bcftools-1.21/test/csq/ENST00000580206/test.cmd.out
+bcftools-1.21/test/csq/ENST00000580206/test.cmd
+bcftools-1.21/test/csq/ENST00000580206/ENST00000580206.fa
+bcftools-1.21/test/csq/ENST00000580206/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000580206/ENST00000580206.fa.fai
+bcftools-1.21/test/csq/ENST00000580206/single.del-snv.vcf
+bcftools-1.21/test/csq/ENST00000580206/compound.del-ins.vcf
+bcftools-1.21/test/csq/ENST00000580206/single.ins-snv.vcf
+bcftools-1.21/test/csq/ENST00000580206/single.del-ins.vcf
+bcftools-1.21/test/csq/ENST00000580206/short.gff
+bcftools-1.21/test/csq/ENST00000580206/compound.ins-snv.vcf
+bcftools-1.21/test/csq/ENST00000580206/compound.del-snv.vcf
+bcftools-1.21/test/csq/ENST00000580206/ENST00000580206.gff
+bcftools-1.21/test/csq/ENST00000400151/
+bcftools-1.21/test/csq/ENST00000400151/ENST00000400151.fa
+bcftools-1.21/test/csq/ENST00000400151/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000400151/ENST00000400151.fa.fai
+bcftools-1.21/test/csq/ENST00000400151/long-del.vcf
+bcftools-1.21/test/csq/ENST00000400151/long-del.txt
+bcftools-1.21/test/csq/ENST00000400151/ENST00000400151.gff
+bcftools-1.21/test/csq/EDUMMY0001/
+bcftools-1.21/test/csq/EDUMMY0001/starts-with-1.txt-l
+bcftools-1.21/test/csq/EDUMMY0001/EDUMMY0001.fa.fai
+bcftools-1.21/test/csq/EDUMMY0001/EDUMMY0001.fa
+bcftools-1.21/test/csq/EDUMMY0001/starts-with-1.vcf
+bcftools-1.21/test/csq/EDUMMY0001/starts-with-1.txt
+bcftools-1.21/test/csq/EDUMMY0001/EDUMMY0001.gff
+bcftools-1.21/test/csq/ENST00000382647/
+bcftools-1.21/test/csq/ENST00000382647/ENST00000382647.fa
+bcftools-1.21/test/csq/ENST00000382647/ENST00000382647.gff
+bcftools-1.21/test/csq/ENST00000382647/synon-splice-region-insert.txt
+bcftools-1.21/test/csq/ENST00000382647/ENST00000382647.fa.fai
+bcftools-1.21/test/csq/ENST00000382647/synon-splice-region-insert.vcf
+bcftools-1.21/test/csq/ENST00000518414/
+bcftools-1.21/test/csq/ENST00000518414/ENST00000518414.fa.fai
+bcftools-1.21/test/csq/ENST00000518414/ENST00000518414.fa
+bcftools-1.21/test/csq/ENST00000518414/ENST00000518414.gff
+bcftools-1.21/test/csq/ENST00000518414/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000518414/incorrect-inframe-del.vcf
+bcftools-1.21/test/csq/ENST00000518414/incorrect-inframe-del.txt
+bcftools-1.21/test/csq/ENST00000368801.2/
+bcftools-1.21/test/csq/ENST00000368801.2/start-lost.vcf
+bcftools-1.21/test/csq/ENST00000368801.2/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000368801.2/ENST00000368801.2.fa.fai
+bcftools-1.21/test/csq/ENST00000368801.2/ENST00000368801.2.gff
+bcftools-1.21/test/csq/ENST00000368801.2/start-lost.txt
+bcftools-1.21/test/csq/ENST00000368801.2/ENST00000368801.2.fa
+bcftools-1.21/test/csq/ENST00000341065/
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor4.vcf
+bcftools-1.21/test/csq/ENST00000341065/frame3.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor7.txt
+bcftools-1.21/test/csq/ENST00000341065/frame1.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor9.txt
+bcftools-1.21/test/csq/ENST00000341065/ENST00000341065.fa
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor3.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor7.vcf
+bcftools-1.21/test/csq/ENST00000341065/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000341065/frame2.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor4.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor5.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor1.txt
+bcftools-1.21/test/csq/ENST00000341065/frame3.vcf
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor2.vcf
+bcftools-1.21/test/csq/ENST00000341065/ENST00000341065.fa.fai
+bcftools-1.21/test/csq/ENST00000341065/frame2.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor6.vcf
+bcftools-1.21/test/csq/ENST00000341065/ENST00000341065.gff
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor8.txt-l
+bcftools-1.21/test/csq/ENST00000341065/frame1.vcf
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor8.vcf
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor5.vcf
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor1.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor3.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor8.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor2.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor2.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor6.txt
+bcftools-1.21/test/csq/ENST00000341065/ascii-art.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor6.txt-l
+bcftools-1.21/test/csq/ENST00000341065/not-a-start-lost.vcf
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor1.vcf
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor5.txt-l
+bcftools-1.21/test/csq/ENST00000341065/frame1.txt
+bcftools-1.21/test/csq/ENST00000341065/frame2.vcf
+bcftools-1.21/test/csq/ENST00000341065/not-a-start-lost.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor9.vcf
+bcftools-1.21/test/csq/ENST00000341065/frame3.txt-l
+bcftools-1.21/test/csq/ENST00000341065/not-a-start-lost.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor4.txt
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor7.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor9.txt-l
+bcftools-1.21/test/csq/ENST00000341065/splice-acceptor-donor3.vcf
+bcftools-1.21/test/csq/ENST00000542803/
+bcftools-1.21/test/csq/ENST00000542803/splice-region.txt-l
+bcftools-1.21/test/csq/ENST00000542803/ENST00000542803.fa.fai
+bcftools-1.21/test/csq/ENST00000542803/splice-region.txt
+bcftools-1.21/test/csq/ENST00000542803/splice-region.vcf
+bcftools-1.21/test/csq/ENST00000542803/ENST00000542803.fa
+bcftools-1.21/test/csq/ENST00000542803/ENST00000542803.gff
+bcftools-1.21/test/csq/ENST00000230048/
+bcftools-1.21/test/csq/ENST00000230048/start-del.txt
+bcftools-1.21/test/csq/ENST00000230048/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000230048/ENST00000230048.fa.fai
+bcftools-1.21/test/csq/ENST00000230048/ENST00000230048.gff
+bcftools-1.21/test/csq/ENST00000230048/start-del.vcf
+bcftools-1.21/test/csq/ENST00000230048/ENST00000230048.fa
+bcftools-1.21/test/csq/ENST00000357367/
+bcftools-1.21/test/csq/ENST00000357367/stop-retained.txt
+bcftools-1.21/test/csq/ENST00000357367/ENST00000357367.fa
+bcftools-1.21/test/csq/ENST00000357367/ENST00000357367.gff
+bcftools-1.21/test/csq/ENST00000357367/stop-retained.vcf
+bcftools-1.21/test/csq/ENST00000357367/ENST00000357367.fa.fai
+bcftools-1.21/test/csq/ENST00000479739/
+bcftools-1.21/test/csq/ENST00000479739/short-cds-start-lost.txt
+bcftools-1.21/test/csq/ENST00000479739/ENST00000479739.gff
+bcftools-1.21/test/csq/ENST00000479739/ENST00000479739.fa
+bcftools-1.21/test/csq/ENST00000479739/short-cds-start-lost.txt-l
+bcftools-1.21/test/csq/ENST00000479739/ENST00000479739.fa.fai
+bcftools-1.21/test/csq/ENST00000479739/short-cds-start-lost.vcf
+bcftools-1.21/test/csq/make-csq-test
+bcftools-1.21/test/csq/ENST00000285021/
+bcftools-1.21/test/csq/ENST00000285021/ENST00000285021.gff
+bcftools-1.21/test/csq/ENST00000285021/stop-gained-inframe-indel.vcf
+bcftools-1.21/test/csq/ENST00000285021/stop-gained-inframe-indel.txt
+bcftools-1.21/test/csq/ENST00000285021/ENST00000285021.fa.fai
+bcftools-1.21/test/csq/ENST00000285021/ENST00000285021.fa
+bcftools-1.21/test/csq/ENST00000571540/
+bcftools-1.21/test/csq/ENST00000571540/ENST00000571540.fa.fai
+bcftools-1.21/test/csq/ENST00000571540/ENST00000571540.fa
+bcftools-1.21/test/csq/ENST00000571540/nmd.vcf
+bcftools-1.21/test/csq/ENST00000571540/nmd.txt
+bcftools-1.21/test/csq/ENST00000571540/ENST00000571540.gff
+bcftools-1.21/test/csq/ENST00000518414-ENST00000521270/
+bcftools-1.21/test/csq/ENST00000518414-ENST00000521270/ENST00000518414-ENST00000521270.fa
+bcftools-1.21/test/csq/ENST00000518414-ENST00000521270/ENST00000518414-ENST00000521270.fa.fai
+bcftools-1.21/test/csq/ENST00000518414-ENST00000521270/valgrind.vcf
+bcftools-1.21/test/csq/ENST00000518414-ENST00000521270/valgrind.txt
+bcftools-1.21/test/csq/ENST00000518414-ENST00000521270/ENST00000518414-ENST00000521270.gff
+bcftools-1.21/test/csq/ENST00000295641/
+bcftools-1.21/test/csq/ENST00000295641/ENST00000295641.gff
+bcftools-1.21/test/csq/ENST00000295641/ENST00000295641.fa
+bcftools-1.21/test/csq/ENST00000295641/not-a-start-lost.vcf
+bcftools-1.21/test/csq/ENST00000295641/ENST00000295641.fa.fai
+bcftools-1.21/test/csq/ENST00000295641/not-a-start-lost.txt
+bcftools-1.21/test/csq/ENST00000295641/not-a-start-lost.txt-l
+bcftools-1.21/test/csq/ENST00000301246/
+bcftools-1.21/test/csq/ENST00000301246/ENST00000301246.gff
+bcftools-1.21/test/csq/ENST00000301246/15bp-insert.txt
+bcftools-1.21/test/csq/ENST00000301246/ENST00000301246.fa.fai
+bcftools-1.21/test/csq/ENST00000301246/15bp-insert.vcf
+bcftools-1.21/test/csq/ENST00000301246/ENST00000301246.fa
+bcftools-1.21/test/csq/ENST00000379416/
+bcftools-1.21/test/csq/ENST00000379416/single.vcf
+bcftools-1.21/test/csq/ENST00000379416/compound.cmd
+bcftools-1.21/test/csq/ENST00000379416/compound.ins-del.vcf
+bcftools-1.21/test/csq/ENST00000379416/ENST00000379416.fa.fai
+bcftools-1.21/test/csq/ENST00000379416/ascii-art.txt
+bcftools-1.21/test/csq/ENST00000379416/compound.ins-ins.vcf
+bcftools-1.21/test/csq/ENST00000379416/ENST00000379416.gff
+bcftools-1.21/test/csq/ENST00000379416/ENST00000379416.fa
+bcftools-1.21/test/csq/ENST00000379416/compound.del-snp.vcf
+bcftools-1.21/test/csq/ENST00000379416/compound.cmd.out
+bcftools-1.21/test/csq/ENST00000379416/compound.ins-snp.vcf
+bcftools-1.21/test/csq/EMN908947/
+bcftools-1.21/test/csq/EMN908947/simple.gff
+bcftools-1.21/test/csq/EMN908947/simple.cmd
+bcftools-1.21/test/csq/EMN908947/simple.cmd.out
+bcftools-1.21/test/csq/EMN908947/ribosomal-slippage.vcf
+bcftools-1.21/test/csq/EMN908947/EMN908947.fa
+bcftools-1.21/test/csq/EMN908947/simple.vcf
+bcftools-1.21/test/csq/EMN908947/ribosomal-slippage.gff
+bcftools-1.21/test/csq/EMN908947/EMN908947.fa.fai
+bcftools-1.21/test/csq/EMN908947/ribosomal-slippage.cmd.out
+bcftools-1.21/test/csq/EMN908947/ribosomal-slippage.cmd
+bcftools-1.21/test/csq/ENST00000543077/
+bcftools-1.21/test/csq/ENST00000543077/ENST00000543077.fa
+bcftools-1.21/test/csq/ENST00000543077/ENST00000543077.fa.fai
+bcftools-1.21/test/csq/ENST00000543077/not-a-start-lost.vcf
+bcftools-1.21/test/csq/ENST00000543077/ENST00000543077.gff
+bcftools-1.21/test/csq/ENST00000543077/not-a-start-lost.txt
+bcftools-1.21/test/csq/ENST00000543077/not-a-start-lost.txt-l
+bcftools-1.21/test/csq/ENST00000390520/
+bcftools-1.21/test/csq/ENST00000390520/ENST00000390520.fa
+bcftools-1.21/test/csq/ENST00000390520/ENST00000390520.gff
+bcftools-1.21/test/csq/ENST00000390520/ENST00000390520.fa.fai
+bcftools-1.21/test/csq/ENST00000390520/deletion-overlap.txt
+bcftools-1.21/test/csq/ENST00000390520/deletion-overlap.vcf
+bcftools-1.21/test/csq/ENST00000422159/
+bcftools-1.21/test/csq/ENST00000422159/test.cmd.out
+bcftools-1.21/test/csq/ENST00000422159/test.cmd
+bcftools-1.21/test/csq/ENST00000422159/multiallelic.vcf
+bcftools-1.21/test/csq/ENST00000422159/short.gff
+bcftools-1.21/test/csq/ENST00000422159/ENST00000422159.fa
+bcftools-1.21/test/csq/ENST00000422159/ENST00000422159.gff
+bcftools-1.21/test/csq/ENST00000422159/ENST00000422159.fa.fai
+bcftools-1.21/test/csq/ENST00000528237/
+bcftools-1.21/test/csq/ENST00000528237/retained-stop-incomplete-cds.txt
+bcftools-1.21/test/csq/ENST00000528237/ENST00000528237.fa
+bcftools-1.21/test/csq/ENST00000528237/retained-stop-incomplete-cds.vcf
+bcftools-1.21/test/csq/ENST00000528237/ENST00000528237.gff
+bcftools-1.21/test/csq/ENST00000528237/ENST00000528237.fa.fai
+bcftools-1.21/test/csq/ENST00000593942/
+bcftools-1.21/test/csq/ENST00000593942/ENST00000593942.fa
+bcftools-1.21/test/csq/ENST00000593942/ENST00000593942.gff
+bcftools-1.21/test/csq/ENST00000593942/ENST00000593942.fa.fai
+bcftools-1.21/test/csq/ENST00000593942/last-codon-deletion.txt
+bcftools-1.21/test/csq/ENST00000593942/last-codon-deletion.vcf
+bcftools-1.21/test/csq/ENST00000303039/
+bcftools-1.21/test/csq/ENST00000303039/not-a-stop.txt-l
+bcftools-1.21/test/csq/ENST00000303039/ENST00000303039.fa.fai
+bcftools-1.21/test/csq/ENST00000303039/not-a-stop.vcf
+bcftools-1.21/test/csq/ENST00000303039/ENST00000303039.gff
+bcftools-1.21/test/csq/ENST00000303039/ENST00000303039.fa
+bcftools-1.21/test/csq/ENST00000303039/not-a-stop.txt
+bcftools-1.21/test/query.45.out
+bcftools-1.21/test/convert.gs.gt.samples
+bcftools-1.21/test/stats.counts.2.chk
+bcftools-1.21/test/merge.LPL.2.out
+bcftools-1.21/test/query.62.out
+bcftools-1.21/test/norm.3.2.out
+bcftools-1.21/test/query.filter.vcf
+bcftools-1.21/test/view.10.out
+bcftools-1.21/test/split-vep.8.out
+bcftools-1.21/test/query.filter.id.2.out
+bcftools-1.21/test/concat.1.b.vcf
+bcftools-1.21/test/merge.3.b.vcf
+bcftools-1.21/test/query.42.out
+bcftools-1.21/test/query.56.out
+bcftools-1.21/test/concat.5.2.out
+bcftools-1.21/test/norm.2.vcf
+bcftools-1.21/test/annotate17.3.tab
+bcftools-1.21/test/view.chrs.tab
+bcftools-1.21/test/query.string.2.2.txt
+bcftools-1.21/test/overlap.neg0.out
+bcftools-1.21/test/weird-chr-names.6.out
+bcftools-1.21/test/consensus.overlaps.1.2.out
+bcftools-1.21/test/query.29.out
+bcftools-1.21/test/filter.6.vcf
+bcftools-1.21/test/convert.23andme.vcf
+bcftools-1.21/test/filter-missing-floats.vcf
+bcftools-1.21/test/gtcheck.5.1.out
+bcftools-1.21/test/annotate.escape.1.vcf
+bcftools-1.21/test/norm.5.vcf
+bcftools-1.21/test/mpileup.ploidy
+bcftools-1.21/test/csq.1.out
+bcftools-1.21/test/norm.sort.vcf
+bcftools-1.21/test/annotate15.vcf
+bcftools-1.21/test/norm.2.out
+bcftools-1.21/test/atomize.split.4.1.out
+bcftools-1.21/test/consensus7a.out
+bcftools-1.21/test/missing.vcf
+bcftools-1.21/test/consensus.9.2.fa
+bcftools-1.21/test/reheader.fai
+bcftools-1.21/test/large_chrom_csi_limit.vcf
+bcftools-1.21/test/variant-distance.4.out
+bcftools-1.21/test/query.4.out
+bcftools-1.21/test/view.GTsubset.NA1.out
+bcftools-1.21/test/setGT.vcf
+bcftools-1.21/test/concat.1.vcf.out
+bcftools-1.21/test/filter.26.out
+bcftools-1.21/test/fill-tags-AD.vcf
+bcftools-1.21/test/convert.hls.gt.hap
+bcftools-1.21/test/merge.9.b.vcf
+bcftools-1.21/test/reheader.empty.out
+bcftools-1.21/test/annots-mark.bed
+bcftools-1.21/test/split-vep.7.vcf
+bcftools-1.21/test/isec-miss.1.2.vcf
+bcftools-1.21/test/filter.21.out
+bcftools-1.21/test/norm.out
+bcftools-1.21/test/norm.rmdup.3.vcf
+bcftools-1.21/test/norm.split.3.vcf
+bcftools-1.21/test/weird-chr-names.1.out
+bcftools-1.21/test/merge.gvcf.7.b.vcf
+bcftools-1.21/test/annotate28.vcf
+bcftools-1.21/test/query.string.2.1.txt
+bcftools-1.21/test/norm.symbolic.1.out
+bcftools-1.21/test/regions.vcf
+bcftools-1.21/test/mpileup.5.samples
+bcftools-1.21/test/query.23.out
+bcftools-1.21/test/query.82.out
+bcftools-1.21/test/gtcheck.5.gts.vcf
+bcftools-1.21/test/merge.4.b.vcf
+bcftools-1.21/test/view.filter.2.out
+bcftools-1.21/test/csq.2.vcf
+bcftools-1.21/test/gvcf.fa
+bcftools-1.21/test/mpileup.4.vcf
+bcftools-1.21/test/large_chrom.20.1.2147483647.out
+bcftools-1.21/test/setGT.5.1.out
+bcftools-1.21/test/query.40.out
+bcftools-1.21/test/view64bit.2.vcf
+bcftools-1.21/test/aa.hdr
+bcftools-1.21/test/remove-overlaps.3.1.out
+bcftools-1.21/test/consensus.13.out
+bcftools-1.21/test/convert.gs.gt.ids.gen.rev
+bcftools-1.21/test/annotate.33.out
+bcftools-1.21/test/annotate24.1.out
+bcftools-1.21/test/view.sites.txt.gz
+bcftools-1.21/test/gvcfz.2.vcf
+bcftools-1.21/test/consensus.3.out
+bcftools-1.21/test/view.filter.6.out
+bcftools-1.21/test/gtcheck.ntop.vcf
+bcftools-1.21/test/merge.gvcf.10.a.vcf
+bcftools-1.21/test/mpileup/
+bcftools-1.21/test/mpileup/indel-AD.4.out
+bcftools-1.21/test/mpileup/indel-AD.1.sam
+bcftools-1.21/test/mpileup/mpileup-SCR.bam
+bcftools-1.21/test/mpileup/mpileup.1.cram.crai
+bcftools-1.21/test/mpileup/mpileup.1.sam
+bcftools-1.21/test/mpileup/mpileup.2.bam.bai
+bcftools-1.21/test/mpileup/indel-AD.2.sam
+bcftools-1.21/test/mpileup/mpileup.1.out
+bcftools-1.21/test/mpileup/mpileup.1.cram
+bcftools-1.21/test/mpileup/annot-NMBZ.1.bam.bai
+bcftools-1.21/test/mpileup/mpileup-SCR.fa
+bcftools-1.21/test/mpileup/mpileup.4.out
+bcftools-1.21/test/mpileup/mpileup.2.bam
+bcftools-1.21/test/mpileup/indel-AD.2.bam.bai
+bcftools-1.21/test/mpileup/annot-NMBZ.2.fa
+bcftools-1.21/test/mpileup/indel-AD.1.out
+bcftools-1.21/test/mpileup/annot-NMBZ.1.fa.fai
+bcftools-1.21/test/mpileup/annot-NMBZ.2.bam.bai
+bcftools-1.21/test/mpileup/annot-NMBZ.1.1.out
+bcftools-1.21/test/mpileup/indel-AD.2.cram.crai
+bcftools-1.21/test/mpileup/mpileup.3.cram
+bcftools-1.21/test/mpileup/mpileup.1.bam.bai
+bcftools-1.21/test/mpileup/annot-NMBZ.3.fa
+bcftools-1.21/test/mpileup/annot-NMBZ.3.1.out
+bcftools-1.21/test/mpileup/mpileup.5.out
+bcftools-1.21/test/mpileup/mpileup-SCR.out
+bcftools-1.21/test/mpileup/mpileup.4.cram
+bcftools-1.21/test/mpileup/annot-NMBZ.2.1.out
+bcftools-1.21/test/mpileup/annot-NMBZ.3.2.bam.bai
+bcftools-1.21/test/mpileup/mpileup.8.out
+bcftools-1.21/test/mpileup/annot-NMBZ.1.bam
+bcftools-1.21/test/mpileup/mpileup.4.sam
+bcftools-1.21/test/mpileup/mpileup.3.bam
+bcftools-1.21/test/mpileup/mpileup.6.out
+bcftools-1.21/test/mpileup/mpileup.3.cram.crai
+bcftools-1.21/test/mpileup/annot-NMBZ.2.bam
+bcftools-1.21/test/mpileup/mpileup.ref.fa
+bcftools-1.21/test/mpileup/mpileup.2.out
+bcftools-1.21/test/mpileup/mpileup.3.bam.bai
+bcftools-1.21/test/mpileup/mpileup.10.out
+bcftools-1.21/test/mpileup/indel-AD.1.bam
+bcftools-1.21/test/mpileup/indel-AD.2.cram
+bcftools-1.21/test/mpileup/indel-AD.1.fa
+bcftools-1.21/test/mpileup/mpileup.11.out
+bcftools-1.21/test/mpileup/mpileup.4.bam
+bcftools-1.21/test/mpileup/annot-NMBZ.2.fa.fai
+bcftools-1.21/test/mpileup/annot-NMBZ.3.fa.fai
+bcftools-1.21/test/mpileup/mpileup-SCR.fa.fai
+bcftools-1.21/test/mpileup/indel-AD.1cns.out
+bcftools-1.21/test/mpileup/mpileup.ref.fa.fai
+bcftools-1.21/test/mpileup/indel-AD.3.out
+bcftools-1.21/test/mpileup/indel-AD.2.fa.fai
+bcftools-1.21/test/mpileup/mpileup.9.out
+bcftools-1.21/test/mpileup/mpileup.3.sam
+bcftools-1.21/test/mpileup/annot-NMBZ.3.1.bam.bai
+bcftools-1.21/test/mpileup/indel-AD.2.fa
+bcftools-1.21/test/mpileup/mpileup.7.out
+bcftools-1.21/test/mpileup/indel-AD.2.bam
+bcftools-1.21/test/mpileup/mpileup-SCR.cram
+bcftools-1.21/test/mpileup/annot-NMBZ.3.2.bam
+bcftools-1.21/test/mpileup/mpileup-filter.2.out
+bcftools-1.21/test/mpileup/indel-AD.1.fa.fai
+bcftools-1.21/test/mpileup/mpileup-filter.sam
+bcftools-1.21/test/mpileup/mpileup.2.cram
+bcftools-1.21/test/mpileup/indel-AD.1.cram
+bcftools-1.21/test/mpileup/mpileup-filter.1.out
+bcftools-1.21/test/mpileup/annot-NMBZ.3.1.bam
+bcftools-1.21/test/mpileup/mpileup.2.cram.crai
+bcftools-1.21/test/mpileup/mpileup.1.bam
+bcftools-1.21/test/mpileup/mpileup.2.sam
+bcftools-1.21/test/mpileup/mpileup.3.out
+bcftools-1.21/test/mpileup/annot-NMBZ.1.fa
+bcftools-1.21/test/mpileup/indel-AD.2.out
+bcftools-1.21/test/split-vep.4.vcf
+bcftools-1.21/test/merge.a.chk
+bcftools-1.21/test/query.31.out
+bcftools-1.21/test/convert.gs.gt.gen
+bcftools-1.21/test/annotate30.out
+bcftools-1.21/test/ad-bias.vcf
+bcftools-1.21/test/gtcheck.3.out
+bcftools-1.21/test/mendelian.5.out
+bcftools-1.21/test/norm.merge.3.out
+bcftools-1.21/test/convert.23andme
+bcftools-1.21/test/consensus2.fa
+bcftools-1.21/test/query.filter.7.vcf
+bcftools-1.21/test/many.alleles.vcf
+bcftools-1.21/test/fill-tags-AD.4.out
+bcftools-1.21/test/annotate3.out
+bcftools-1.21/test/query.28.out
+bcftools-1.21/test/concat.2.vcf.out
+bcftools-1.21/test/filter.12.out
+bcftools-1.21/test/merge.2.all.out
+bcftools-1.21/test/isec.tab.out
+bcftools-1.21/test/query.75.out
+bcftools-1.21/test/atomize.split.1.2.out
+bcftools-1.21/test/consensus.fa
+bcftools-1.21/test/norm.symbolic.2.out
+bcftools-1.21/test/annotate10.out
+bcftools-1.21/test/gtcheck.9.out
+bcftools-1.21/test/query.87.out
+bcftools-1.21/test/filter.25.out
+bcftools-1.21/test/csq.vcf
+bcftools-1.21/test/query.smpl.4.out
+bcftools-1.21/test/concat.1.bcf.out
+bcftools-1.21/test/filter.10.vcf
+bcftools-1.21/test/filter.4.out
+bcftools-1.21/test/annotate.multi.tab
+bcftools-1.21/test/annotate25.out
+bcftools-1.21/test/consensus.19.out
+bcftools-1.21/test/remove-overlaps.1.6.out
+bcftools-1.21/test/annotate17.2.vcf
+bcftools-1.21/test/call.af-fixation.txt
+bcftools-1.21/test/view.GTisec.Hv.out
+bcftools-1.21/test/tabix.1.3000151.out
+bcftools-1.21/test/annots.vcf
+bcftools-1.21/test/query.string.2.1.out
+bcftools-1.21/test/remove-overlaps.3.2.out
+bcftools-1.21/test/prune.1.3.out
+bcftools-1.21/test/view.vectors.B.out
+bcftools-1.21/test/filter.9.vcf
+bcftools-1.21/test/split-vep.vcf
+bcftools-1.21/test/ad-bias.out
+bcftools-1.21/test/test-rbuf.c
+bcftools-1.21/test/split-vep.gene-list.1.out
+bcftools-1.21/test/head.3.out
+bcftools-1.21/test/merge.LPL.c.vcf
+bcftools-1.21/test/isec.ab.out
+bcftools-1.21/test/annotate23.vcf
+bcftools-1.21/test/annotate22.vcf
+bcftools-1.21/test/fill-tags-AD.2.out
+bcftools-1.21/test/isec-miss.1.1.vcf
+bcftools-1.21/test/split-vep.select-tr-expr.vcf
+bcftools-1.21/test/stats.counts.vcf
+bcftools-1.21/test/consensus.2.out
+bcftools-1.21/test/norm.right-align.2.out
+bcftools-1.21/test/check.gs.chrom.samples
+bcftools-1.21/test/concat.2.a.vcf
+bcftools-1.21/test/norm.rmdup.3.out
+bcftools-1.21/test/gtcheck.6.out
+bcftools-1.21/test/fixploidy.ploidy
+bcftools-1.21/test/query.variantkey.hex.out
+bcftools-1.21/test/query.9.out
+bcftools-1.21/test/consensus.10.vcf
+bcftools-1.21/test/annotate19.out
+bcftools-1.21/test/query.63.out
+bcftools-1.21/test/filter.10.out
+bcftools-1.21/test/view64bit.1.vcf
+bcftools-1.21/test/consensus17.1.out
+bcftools-1.21/test/annotate18.2.vcf
+bcftools-1.21/test/annotate20.dst.vcf
+bcftools-1.21/test/concat.5.b.vcf
+bcftools-1.21/test/consensus.19.fa
+bcftools-1.21/test/merge.noidx.abc.out
+bcftools-1.21/test/norm.split.2.out
+bcftools-1.21/test/aa.2.out
+bcftools-1.21/test/checkploidy.2.out
+bcftools-1.21/test/query.11.out
+bcftools-1.21/test/atomize.split.4.2.out
+bcftools-1.21/test/mpileup.c.X.out
+bcftools-1.21/test/setGT.4.vcf
+bcftools-1.21/test/mpileup.NA19213.NA19129.vcf
+bcftools-1.21/test/fill-tags-hemi.1.out
+bcftools-1.21/test/query.76.out
+bcftools-1.21/test/gtcheck.4.pairs
+bcftools-1.21/test/check.gs.vcfids.gen
+bcftools-1.21/test/norm.atom-split-norm.vcf
+bcftools-1.21/test/isec.ab.both.out
+bcftools-1.21/test/merge.mrules.1.1.out
+bcftools-1.21/test/view.filter.8.out
+bcftools-1.21/test/split-vep.filter.vcf
+bcftools-1.21/test/norm.setref.vcf
+bcftools-1.21/test/merge.gvcf.2.a.2.out
+bcftools-1.21/test/merge.9.out
+bcftools-1.21/test/parental-origin.vcf
+bcftools-1.21/test/filter.20.out
+bcftools-1.21/test/convert.hs.hap
+bcftools-1.21/test/query.70.out
+bcftools-1.21/test/trio.ped
+bcftools-1.21/test/query.51.out
+bcftools-1.21/test/view.chrs.out
+bcftools-1.21/test/gtcheck.12.out
+bcftools-1.21/test/annotate4.hdr
+bcftools-1.21/test/mpileup.hwe.1.out
+bcftools-1.21/test/remove-overlaps.1.1.out
+bcftools-1.21/test/consensus.8d.out
+bcftools-1.21/test/merge.mrules.1.2.out
+bcftools-1.21/test/consensus2.2.out
+bcftools-1.21/test/query.smpl.3.out
+bcftools-1.21/test/mpileup.3.out
+bcftools-1.21/test/consensus.17.out
+bcftools-1.21/test/query.80.out
+bcftools-1.21/test/split-vep.27.out
+bcftools-1.21/test/norm.m-any.1.out
+bcftools-1.21/test/annotate20.src.vcf
+bcftools-1.21/test/af-dist.vcf
+bcftools-1.21/test/norm.rmdup.3.fa
+bcftools-1.21/test/split.1.1.out
+bcftools-1.21/test/many-alts.vcf
+bcftools-1.21/test/convert.hs.sample
+bcftools-1.21/test/view.omitgenotypes.out
+bcftools-1.21/test/consensus.overlaps.1.fa
+bcftools-1.21/test/convert.gs.gt.ids.3N6.gen
+bcftools-1.21/test/query.73.out
+bcftools-1.21/test/merge.10.a.vcf
+bcftools-1.21/test/filter.33.out
+bcftools-1.21/test/annotate19.src.vcf
+bcftools-1.21/test/checkploidy.2.vcf
+bcftools-1.21/test/consensus.11.1.out
+bcftools-1.21/test/annotate.vcf
+bcftools-1.21/test/annotate2.tab
+bcftools-1.21/test/consensus.18.out
+bcftools-1.21/test/merge.gvcf.3.a.vcf
+bcftools-1.21/test/concat.4.bcf.out
+bcftools-1.21/test/consensus.15.vcf
+bcftools-1.21/test/view.dropgenotypes.noheader.out
+bcftools-1.21/test/filter.43.out
+bcftools-1.21/test/view.vectors.A.out
+bcftools-1.21/test/mpileup.cals.1.tab
+bcftools-1.21/test/filter.5.vcf
+bcftools-1.21/test/variant-distance.3.out
+bcftools-1.21/test/query.48.out
+bcftools-1.21/test/weird-chr-names.5.out
+bcftools-1.21/test/variantkey-hex.out
+bcftools-1.21/test/view.sites.vcf
+bcftools-1.21/test/annotate10.vcf
+bcftools-1.21/test/concat.5.a.vcf
+bcftools-1.21/test/merge.gvcf.4.a.vcf
+bcftools-1.21/test/consensus.17.vcf
+bcftools-1.21/test/remove-overlaps.1.2.out
+bcftools-1.21/test/mendelian.vcf
+bcftools-1.21/test/fixploidy.out
+bcftools-1.21/test/filter.16.out
+bcftools-1.21/test/mpileup.2.samples
+bcftools-1.21/test/filter.42.out
+bcftools-1.21/test/consensus.8a.out
+bcftools-1.21/test/view64bit.3.out
+bcftools-1.21/test/consensus.13.fa
+bcftools-1.21/test/merge.4.out
+bcftools-1.21/test/view.GTisec.m.out
+bcftools-1.21/test/setGT.6.2.out
+bcftools-1.21/test/view.5.out
+bcftools-1.21/test/annotate9.vcf
+bcftools-1.21/test/consensus20.1.out
+bcftools-1.21/test/large_chrom_csi_limit.20.1.2147483647.out
+bcftools-1.21/test/split-vep.14.out
+bcftools-1.21/test/annotate.missing.6.out
+bcftools-1.21/test/annotate21.txt
+bcftools-1.21/test/annotate17.3.vcf
+bcftools-1.21/test/annotate.hdr
+bcftools-1.21/test/annotate26.1.out
+bcftools-1.21/test/reheader.vcf
+bcftools-1.21/test/annotate26.vcf
+bcftools-1.21/test/split-vep.types.2.out
+bcftools-1.21/test/annots34.tab
+bcftools-1.21/test/idx.3.bed
+bcftools-1.21/test/convert.tsv
+bcftools-1.21/test/norm.merge.4.2.out
+bcftools-1.21/test/concat.3.f.vcf
+bcftools-1.21/test/consensus.9.1.out
+bcftools-1.21/test/annotate20.out
+bcftools-1.21/test/filter.11.vcf
+bcftools-1.21/test/split-vep.18.out
+bcftools-1.21/test/split-vep.5.vcf
+bcftools-1.21/test/filter.string.1.txt
+bcftools-1.21/test/norm.iupac.fa
+bcftools-1.21/test/view.exclude.out
+bcftools-1.21/test/split-vep.9.out
+bcftools-1.21/test/view.GTisec.v.out
+bcftools-1.21/test/merge.LPL.6.out
+bcftools-1.21/test/contrast.vcf
+bcftools-1.21/bin.h
+bcftools-1.21/configure
+bcftools-1.21/vcfstats.c
+bcftools-1.21/vcfview.c
+bcftools-1.21/INSTALL
+bcftools-1.21/tsv2vcf.c
+bcftools-1.21/mcall.c
+bcftools-1.21/bam_sample.h
+bcftools-1.21/csq.c
+bcftools-1.21/str_finder.c
+bcftools-1.21/configure.ac
+bcftools-1.21/ploidy.c
+bcftools-1.21/ccall.c
+bcftools-1.21/plugins/
+bcftools-1.21/plugins/split.c
+bcftools-1.21/plugins/fill-tags.c
+bcftools-1.21/plugins/variant-distance.c
+bcftools-1.21/plugins/remove-overlaps.c
+bcftools-1.21/plugins/dosage.c
+bcftools-1.21/plugins/isecGT.mk
+bcftools-1.21/plugins/parental-origin.c
+bcftools-1.21/plugins/scatter.c
+bcftools-1.21/plugins/trio-switch-rate.c
+bcftools-1.21/plugins/color-chrs.mk
+bcftools-1.21/plugins/allele-length.c
+bcftools-1.21/plugins/add-variantkey.c
+bcftools-1.21/plugins/trio-dnm2.c
+bcftools-1.21/plugins/frameshifts.c
+bcftools-1.21/plugins/GTisec.c
+bcftools-1.21/plugins/fixploidy.mk
+bcftools-1.21/plugins/trio-stats.c
+bcftools-1.21/plugins/GTisec.mk
+bcftools-1.21/plugins/fixploidy.c
+bcftools-1.21/plugins/counts.c
+bcftools-1.21/plugins/fill-AN-AC.c
+bcftools-1.21/plugins/GTsubset.mk
+bcftools-1.21/plugins/check-ploidy.c
+bcftools-1.21/plugins/impute-info.c
+bcftools-1.21/plugins/indel-stats.c
+bcftools-1.21/plugins/isecGT.c
+bcftools-1.21/plugins/check-sparsity.c
+bcftools-1.21/plugins/prune.c
+bcftools-1.21/plugins/GTsubset.c
+bcftools-1.21/plugins/fill-from-fasta.mk
+bcftools-1.21/plugins/guess-ploidy.c
+bcftools-1.21/plugins/ad-bias.c
+bcftools-1.21/plugins/gvcfz.c
+bcftools-1.21/plugins/mendelian2.c
+bcftools-1.21/plugins/setGT.c
+bcftools-1.21/plugins/contrast.c
+bcftools-1.21/plugins/missing2ref.c
+bcftools-1.21/plugins/color-chrs.c
+bcftools-1.21/plugins/tag2tag.c
+bcftools-1.21/plugins/fixref.c
+bcftools-1.21/plugins/af-dist.mk
+bcftools-1.21/plugins/smpl-stats.c
+bcftools-1.21/plugins/fill-from-fasta.c
+bcftools-1.21/plugins/ad-bias.mk
+bcftools-1.21/plugins/split-vep.c
+bcftools-1.21/plugins/variantkey-hex.c
+bcftools-1.21/plugins/af-dist.c
+bcftools-1.21/tabix.c
+bcftools-1.21/vcfcall.c
+bcftools-1.21/doc/
+bcftools-1.21/doc/bcftools.1
+bcftools-1.21/doc/docbook-xsl.css
+bcftools-1.21/doc/bcftools.txt
+bcftools-1.21/doc/bcftools.html
+bcftools-1.21/peakfit.c
+bcftools-1.21/Makefile
+bcftools-1.21/ploidy.h
+bcftools-1.21/abuf.h
+bcftools-1.21/peakfit.h
+bcftools-1.21/README
+bcftools-1.21/version.c
+bcftools-1.21/reheader.c
+bcftools-1.21/regidx.h
+bcftools-1.21/mpileup.c
+bcftools-1.21/extsort.h
+bcftools-1.21/hex.h
+bcftools-1.21/vcfisec.c
+bcftools-1.21/hclust.c
+bcftools-1.21/prob1.c
+bcftools-1.21/kheap.h
+bcftools-1.21/vcfhead.c
+bcftools-1.21/bam2bcf_indel.c
+bcftools-1.21/bam_sample.c
+bcftools-1.21/vcfnorm.c
+bcftools-1.21/filter.h
+bcftools-1.21/call.h
+bcftools-1.21/gvcf.c
+bcftools-1.21/tsv2vcf.h
+bcftools-1.21/vcfbuf.c
+bcftools-1.21/bam2bcf.c
+bcftools-1.21/bcftools.h
+bcftools-1.21/read_consensus.h
+bcftools-1.21/vcfconcat.c
+bcftools-1.21/config.mk.in
+bcftools-1.21/hclust.h
+bcftools-1.21/vcmp.h
+bcftools-1.21/rbuf.h
+bcftools-1.21/gff.c
+bcftools-1.21/bin.c
+bcftools-1.21/kmin.c
+bcftools-1.21/cols.h
+bcftools-1.21/convert.h
+bcftools-1.21/misc/
+bcftools-1.21/misc/run-roh.pl
+bcftools-1.21/misc/demo-flt.pl
+bcftools-1.21/misc/vcfutils.pl
+bcftools-1.21/misc/plot-roh.py
+bcftools-1.21/misc/gff2gff
+bcftools-1.21/misc/guess-ploidy.py
+bcftools-1.21/misc/gff2gff.py
+bcftools-1.21/misc/fix-broken-GATK-Double-vs-Integer
+bcftools-1.21/misc/color-chrs.pl
+bcftools-1.21/misc/plot-vcfstats
+bcftools-1.21/regidx.c
+bcftools-1.21/vcfindex.c
+bcftools-1.21/variantkey.h
+bcftools-1.21/NEWS
+bcftools-1.21/vcfannotate.c
+bcftools-1.21/m4/
+bcftools-1.21/m4/ax_with_htslib.m4
+bcftools-1.21/m4/hts_prog_cc_warnings.m4
+bcftools-1.21/AUTHORS
+bcftools-1.21/HMM.h
+bcftools-1.21/extsort.c
+bcftools-1.21/convert.c
+bcftools-1.21/HMM.c
+bcftools-1.21/dist.c
+URL transformed to HTTPS due to an HSTS policy
+--2024-10-25 13:22:12--  https://raw.githubusercontent.com/freeseek/gtc2vcf/master/idat2gtc.c
+Connecting to 10.99.0.130:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 195776 (191K) [text/plain]
+Saving to: ‘plugins/idat2gtc.c’
+
+     0K .......... .......... .......... .......... .......... 26%  117M 0s
+    50K .......... .......... .......... .......... .......... 52%  428M 0s
+   100K .......... .......... .......... .......... .......... 78%  282M 0s
+   150K .......... .......... .......... .......... .         100%  470M=0.001s
+
+2024-10-25 13:22:12 (236 MB/s) - ‘plugins/idat2gtc.c’ saved [195776/195776]
+
+URL transformed to HTTPS due to an HSTS policy
+--2024-10-25 13:22:12--  https://raw.githubusercontent.com/freeseek/gtc2vcf/master/gtc2vcf.c
+Reusing existing connection to raw.githubusercontent.com:443.
+Proxy request sent, awaiting response... 200 OK
+Length: 173308 (169K) [text/plain]
+Saving to: ‘plugins/gtc2vcf.c’
+
+     0K .......... .......... .......... .......... .......... 29%  238M 0s
+    50K .......... .......... .......... .......... .......... 59%  482M 0s
+   100K .......... .......... .......... .......... .......... 88%  530M 0s
+   150K .......... .........                                  100%  473M=0s
+
+2024-10-25 13:22:12 (377 MB/s) - ‘plugins/gtc2vcf.c’ saved [173308/173308]
+
+URL transformed to HTTPS due to an HSTS policy
+--2024-10-25 13:22:12--  https://raw.githubusercontent.com/freeseek/gtc2vcf/master/gtc2vcf.h
+Reusing existing connection to raw.githubusercontent.com:443.
+Proxy request sent, awaiting response... 200 OK
+Length: 22735 (22K) [text/plain]
+Saving to: ‘plugins/gtc2vcf.h’
+
+     0K .......... .......... ..                              100%  180M=0s
+
+2024-10-25 13:22:12 (180 MB/s) - ‘plugins/gtc2vcf.h’ saved [22735/22735]
+
+URL transformed to HTTPS due to an HSTS policy
+--2024-10-25 13:22:12--  https://raw.githubusercontent.com/freeseek/gtc2vcf/master/affy2vcf.c
+Reusing existing connection to raw.githubusercontent.com:443.
+Proxy request sent, awaiting response... 200 OK
+Length: 119038 (116K) [text/plain]
+Saving to: ‘plugins/affy2vcf.c’
+
+     0K .......... .......... .......... .......... .......... 43%  177M 0s
+    50K .......... .......... .......... .......... .......... 86%  360M 0s
+   100K .......... ......                                     100%  509M=0s
+
+2024-10-25 13:22:13 (256 MB/s) - ‘plugins/affy2vcf.c’ saved [119038/119038]
+
+FINISHED --2024-10-25 13:22:13--
+Total wall clock time: 1.0s
+Downloaded: 4 files, 499K in 0.002s (272 MB/s)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for C compiler warning flags... -Wall
+checking for gcc option to enable large file support... none needed
+checking location of HTSlib source tree... htslib-1.21
+checking shared library type... plain .so
+checking for library containing dlopen... none required
+checking if the compiler accepts -rdynamic... yes
+checking for zlib.h... yes
+checking for inflate in -lz... yes
+checking for library containing regcomp... none required
+configure: creating ./config.status
+config.status: creating config.mk
+config.status: creating config.h
+=== configuring in htslib-1.21 (/shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/htslib-1.21)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/shared/EL9/explorer/bcftools/1.21'  --cache-file=/dev/null --srcdir=.
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for ranlib... ranlib
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for C compiler warning flags... -Wall
+checking for gcc options needed to detect all undeclared functions... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/param.h... yes
+checking whether _XOPEN_SOURCE is declared... no
+checking whether __get_cpuid_max is declared... yes
+checking whether __cpuid_count is declared... yes
+checking C compiler flags needed for sse4.1... none
+checking C compiler flags needed for avx2... -mavx2 -mpopcnt
+checking C compiler flags needed for avx512f... -mavx512f -mpopcnt
+checking for working __builtin_cpu_supports("ssse3")... yes
+checking for __attribute__((target))... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gcc option to enable large file support... none needed
+checking shared library type for unknown-Linux... plain .so
+checking whether the linker supports versioned symbols... yes
+checking whether the compiler accepts -fvisibility=hidden... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for gmtime_r... yes
+checking for fsync... yes
+checking for drand48... yes
+checking for srand48_deterministic... no
+checking whether fdatasync is declared... yes
+checking for fdatasync... yes
+checking for __attribute__((constructor))... yes
+checking for clock_gettime with CLOCK_PROCESS_CPUTIME_ID... yes
+checking for library containing log... -lm
+checking for zlib.h... yes
+checking for inflate in -lz... yes
+checking for library containing recv... none required
+checking for bzlib.h... yes
+checking for BZ2_bzBuffToBuffCompress in -lbz2... yes
+checking for lzma.h... yes
+checking for lzma_easy_buffer_encode in -llzma... yes
+checking whether htscodecs files are present... yes
+checking for libdeflate.h... no
+checking for libdeflate_deflate_compress in -ldeflate... no
+checking for curl/curl.h... yes
+checking for curl_easy_pause in -lcurl... yes
+checking for CCHmac... no
+checking for library containing HMAC... -lcrypto
+checking for library containing regcomp... none required
+configure: creating ./config.status
+config.status: creating config.mk
+config.status: creating htslib.pc.tmp
+config.status: creating config.h
+config.status: linking htscodecs_bundled.mk to htscodecs.mk
+cd htslib-1.21 && make htslib_static.mk
+make[1]: Entering directory '/shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/htslib-1.21'
+sed -n '/^static_libs=/s/[^=]*=/HTSLIB_static_LIBS = /p;/^static_ldflags=/s/[^=]*=/HTSLIB_static_LDFLAGS = /p' htslib.pc.tmp > htslib_static.mk
+make[1]: Leaving directory '/shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/htslib-1.21'
+echo '#define BCFTOOLS_VERSION "1.21"' > version.h
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o main.o main.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfindex.o vcfindex.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o tabix.o tabix.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfstats.o vcfstats.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfisec.o vcfisec.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfmerge.o vcfmerge.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfquery.o vcfquery.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcffilter.o vcffilter.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21    -c -o filter.o filter.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfsom.o vcfsom.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfnorm.o vcfnorm.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfgtcheck.o vcfgtcheck.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfview.o vcfview.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfannotate.o vcfannotate.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfroh.o vcfroh.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfconcat.o vcfconcat.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfcall.o vcfcall.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o mcall.o mcall.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcmp.o vcmp.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o gvcf.o gvcf.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o reheader.o reheader.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o convert.o convert.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfconvert.o vcfconvert.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o tsv2vcf.o tsv2vcf.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfcnv.o vcfcnv.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfhead.o vcfhead.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o HMM.o HMM.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o consensus.o consensus.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o ploidy.o ploidy.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o bin.o bin.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o hclust.o hclust.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o version.o version.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o regidx.o regidx.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o smpl_ilist.o smpl_ilist.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o csq.o csq.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfbuf.o vcfbuf.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o mpileup.o mpileup.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o bam2bcf.o bam2bcf.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o bam2bcf_indel.o bam2bcf_indel.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o bam2bcf_iaux.o bam2bcf_iaux.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o bam2bcf_edlib.o bam2bcf_edlib.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o read_consensus.o read_consensus.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o bam_sample.o bam_sample.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o vcfsort.o vcfsort.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o cols.o cols.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o extsort.o extsort.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o dist.o dist.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o abuf.o abuf.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o ccall.o ccall.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o em.o em.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o prob1.o prob1.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o kmin.o kmin.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o str_finder.o str_finder.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o gff.o gff.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o edlib.o edlib.c
+gcc -Wall -g -O2 -I. -Ihtslib-1.21  -DPLUGINPATH='"/shared/EL9/explorer/bcftools/1.21/libexec/bcftools"' -c -o vcfplugin.o vcfplugin.c
+cd htslib-1.21 && make hts-object-files
+make[1]: Entering directory '/shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/htslib-1.21'
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o kfunc.o kfunc.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o kstring.o kstring.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o bcf_sr_sort.o bcf_sr_sort.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o bgzf.o bgzf.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o errmod.o errmod.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o faidx.o faidx.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o header.o header.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hfile.o hfile.c
+echo '#define HTS_VERSION_TEXT "1.21"' > version.h
+printf '#define HTS_CC "%s"\n#define HTS_CPPFLAGS "%s"\n#define HTS_CFLAGS "%s"\n#define HTS_LDFLAGS "%s"\n#define HTS_LIBS "%s"\n' \
+'gcc' \
+'' \
+'-Wall -g -O2 -fvisibility=hidden' \
+'-fvisibility=hidden ' \
+'-llzma -lbz2 -lz -lm  -lcurl -lcrypto' > config_vars.h
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hts.o hts.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hts_expr.o hts_expr.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hts_os.o hts_os.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o md5.o md5.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o multipart.o multipart.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o probaln.o probaln.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o realn.o realn.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o regidx.o regidx.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o region.o region.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o sam.o sam.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o sam_mods.o sam_mods.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o simd.o simd.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o synced_bcf_reader.o synced_bcf_reader.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o vcf_sweep.o vcf_sweep.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o tbx.o tbx.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o textutils.o textutils.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o thread_pool.o thread_pool.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o vcf.o vcf.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o vcfutils.o vcfutils.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/cram_codecs.o cram/cram_codecs.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/cram_decode.o cram/cram_decode.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/cram_encode.o cram/cram_encode.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/cram_external.o cram/cram_external.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/cram_index.o cram/cram_index.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/cram_io.o cram/cram_io.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/cram_stats.o cram/cram_stats.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/mFILE.o cram/mFILE.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/open_trace_file.o cram/open_trace_file.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/pooled_alloc.o cram/pooled_alloc.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o cram/string_alloc.o cram/string_alloc.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/arith_dynamic.o htscodecs/htscodecs/arith_dynamic.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/fqzcomp_qual.o htscodecs/htscodecs/fqzcomp_qual.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/htscodecs.o htscodecs/htscodecs/htscodecs.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/pack.o htscodecs/htscodecs/pack.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/rANS_static4x16pr.o htscodecs/htscodecs/rANS_static4x16pr.c
+gcc -Wall -g -O2 -fvisibility=hidden -mavx2 -mpopcnt -I.  -c -o htscodecs/htscodecs/rANS_static32x16pr_avx2.o htscodecs/htscodecs/rANS_static32x16pr_avx2.c
+gcc -Wall -g -O2 -fvisibility=hidden -mavx512f -mpopcnt -I.  -c -o htscodecs/htscodecs/rANS_static32x16pr_avx512.o htscodecs/htscodecs/rANS_static32x16pr_avx512.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/rANS_static32x16pr_sse4.o htscodecs/htscodecs/rANS_static32x16pr_sse4.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/rANS_static32x16pr_neon.o htscodecs/htscodecs/rANS_static32x16pr_neon.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/rANS_static32x16pr.o htscodecs/htscodecs/rANS_static32x16pr.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/rANS_static.o htscodecs/htscodecs/rANS_static.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/rle.o htscodecs/htscodecs/rle.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/tokenise_name3.o htscodecs/htscodecs/tokenise_name3.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o htscodecs/htscodecs/utils.o htscodecs/htscodecs/utils.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hfile_libcurl.o hfile_libcurl.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hfile_gcs.o hfile_gcs.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hfile_s3.o hfile_s3.c
+gcc -Wall -g -O2 -fvisibility=hidden  -I.  -c -o hfile_s3_write.o hfile_s3_write.c
+touch hts-object-files
+make[1]: Leaving directory '/shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/htslib-1.21'
+cd htslib-1.21 && make lib-static
+make[1]: Entering directory '/shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/htslib-1.21'
+ar -rc libhts.a kfunc.o kstring.o bcf_sr_sort.o bgzf.o errmod.o faidx.o header.o hfile.o hts.o hts_expr.o hts_os.o md5.o multipart.o probaln.o realn.o regidx.o region.o sam.o sam_mods.o simd.o synced_bcf_reader.o vcf_sweep.o tbx.o textutils.o thread_pool.o vcf.o vcfutils.o cram/cram_codecs.o cram/cram_decode.o cram/cram_encode.o cram/cram_external.o cram/cram_index.o cram/cram_io.o cram/cram_stats.o cram/mFILE.o cram/open_trace_file.o cram/pooled_alloc.o cram/string_alloc.o htscodecs/htscodecs/arith_dynamic.o htscodecs/htscodecs/fqzcomp_qual.o htscodecs/htscodecs/htscodecs.o htscodecs/htscodecs/pack.o htscodecs/htscodecs/rANS_static4x16pr.o htscodecs/htscodecs/rANS_static32x16pr_avx2.o htscodecs/htscodecs/rANS_static32x16pr_avx512.o htscodecs/htscodecs/rANS_static32x16pr_sse4.o htscodecs/htscodecs/rANS_static32x16pr_neon.o htscodecs/htscodecs/rANS_static32x16pr.o htscodecs/htscodecs/rANS_static.o htscodecs/htscodecs/rle.o htscodecs/htscodecs/tokenise_name3.o htscodecs/htscodecs/utils.o  hfile_libcurl.o hfile_gcs.o hfile_s3.o hfile_s3_write.o
+ranlib libhts.a
+make[1]: Leaving directory '/shared/EL9/explorer/bcftools/1.21/src/bcftools-1.21/htslib-1.21'
+gcc -rdynamic   -o bcftools main.o vcfindex.o tabix.o vcfstats.o vcfisec.o vcfmerge.o vcfquery.o vcffilter.o filter.o vcfsom.o vcfnorm.o vcfgtcheck.o vcfview.o vcfannotate.o vcfroh.o vcfconcat.o vcfcall.o mcall.o vcmp.o gvcf.o reheader.o convert.o vcfconvert.o tsv2vcf.o vcfcnv.o vcfhead.o HMM.o consensus.o ploidy.o bin.o hclust.o version.o regidx.o smpl_ilist.o csq.o vcfbuf.o mpileup.o bam2bcf.o bam2bcf_indel.o bam2bcf_iaux.o bam2bcf_edlib.o read_consensus.o bam_sample.o vcfsort.o cols.o extsort.o dist.o abuf.o ccall.o em.o prob1.o kmin.o str_finder.o gff.o edlib.o vcfplugin.o htslib-1.21/libhts.a -lpthread -lz -lm -lbz2 -llzma -lcurl -lcrypto -lm -lz     -lpthread
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o test/test-rbuf.o test/test-rbuf.c
+gcc  -o test/test-rbuf test/test-rbuf.o -lz  
+gcc -Wall -g -O2 -I. -Ihtslib-1.21   -c -o test/test-regidx.o test/test-regidx.c
+gcc   -o test/test-regidx test/test-regidx.o regidx.o htslib-1.21/libhts.a -lpthread -lz -lm -lbz2 -llzma -lcurl -lcrypto -lpthread -lz  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/ad-bias.so convert.c version.c plugins/ad-bias.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/add-variantkey.so version.c plugins/add-variantkey.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/af-dist.so bin.c version.c plugins/af-dist.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/affy2vcf.so version.c plugins/affy2vcf.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/allele-length.so version.c plugins/allele-length.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/check-ploidy.so version.c plugins/check-ploidy.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/check-sparsity.so version.c plugins/check-sparsity.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/color-chrs.so HMM.c version.c plugins/color-chrs.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/contrast.so version.c plugins/contrast.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/counts.so version.c plugins/counts.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/dosage.so version.c plugins/dosage.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/fill-AN-AC.so version.c plugins/fill-AN-AC.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21     -o plugins/fill-from-fasta.so filter.c version.c plugins/fill-from-fasta.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/fill-tags.so version.c plugins/fill-tags.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/fixploidy.so ploidy.c regidx.c version.c plugins/fixploidy.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/fixref.so version.c plugins/fixref.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/frameshifts.so version.c plugins/frameshifts.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/gtc2vcf.so version.c plugins/gtc2vcf.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/GTisec.so version.c plugins/GTisec.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/GTsubset.so version.c plugins/GTsubset.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/guess-ploidy.so version.c plugins/guess-ploidy.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/gvcfz.so version.c plugins/gvcfz.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/idat2gtc.so version.c plugins/idat2gtc.c 
+plugins/idat2gtc.c:830:13: warning: ‘idats_to_tsv’ defined but not used [-Wunused-function]
+  830 | static void idats_to_tsv(idat_t **idats, int n, FILE *stream) {
+      |             ^~~~~~~~~~~~
+plugins/idat2gtc.c:788:13: warning: ‘idat_to_csv’ defined but not used [-Wunused-function]
+  788 | static void idat_to_csv(const idat_t *idat, FILE *stream, int verbose) {
+      |             ^~~~~~~~~~~
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/impute-info.so version.c plugins/impute-info.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/indel-stats.so version.c plugins/indel-stats.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/isecGT.so smpl_ilist.c version.c plugins/isecGT.c  
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/mendelian2.so version.c plugins/mendelian2.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/missing2ref.so version.c plugins/missing2ref.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/parental-origin.so version.c plugins/parental-origin.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/prune.so version.c plugins/prune.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/remove-overlaps.so version.c plugins/remove-overlaps.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/scatter.so version.c plugins/scatter.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/setGT.so version.c plugins/setGT.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/smpl-stats.so version.c plugins/smpl-stats.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/split.so version.c plugins/split.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/split-vep.so version.c plugins/split-vep.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/tag2tag.so version.c plugins/tag2tag.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/trio-dnm2.so version.c plugins/trio-dnm2.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/trio-stats.so version.c plugins/trio-stats.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/trio-switch-rate.so version.c plugins/trio-switch-rate.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/variant-distance.so version.c plugins/variant-distance.c 
+gcc -fPIC -shared -Wall -g -O2 -I. -Ihtslib-1.21    -o plugins/variantkey-hex.so version.c plugins/variantkey-hex.c 
+mkdir -p -m 755 /shared/EL9/explorer/bcftools/1.21/bin /shared/EL9/explorer/bcftools/1.21/share/man/man1 /shared/EL9/explorer/bcftools/1.21/libexec/bcftools
+install -p bcftools /shared/EL9/explorer/bcftools/1.21/bin
+install -p misc/color-chrs.pl misc/gff2gff.py misc/guess-ploidy.py misc/plot-vcfstats misc/plot-roh.py misc/run-roh.pl misc/vcfutils.pl /shared/EL9/explorer/bcftools/1.21/bin
+install -p -m 644 doc/bcftools.1 /shared/EL9/explorer/bcftools/1.21/share/man/man1
+install -p plugins/*.so /shared/EL9/explorer/bcftools/1.21/libexec/bcftools
