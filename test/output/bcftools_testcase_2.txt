@@ -1,0 +1,11 @@
+========================================================
+Test Case 2: Filter Variants Using BCFtools
+Job ID: 4011
+Node: d0003
+Start Time: Mon Jan  6 10:48:00 AM EST 2025
+========================================================
+Creating a sample VCF file...
+Filtering variants with QUAL >= 30...
+Variants filtered successfully. Output written to output/sample_filtered.vcf.
+End Time: Mon Jan  6 10:48:00 AM EST 2025
+========================================================
