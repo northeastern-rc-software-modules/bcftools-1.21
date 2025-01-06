@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=chr1,length=1000>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##bcftools_viewVersion=1.21+htslib-1.21
+##bcftools_viewCommand=view -i QUAL>=30 -o output/sample_filtered.vcf -Ov src/sample.vcf; Date=Mon Jan  6 10:48:00 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	sample1
+chr1	100	.	A	G	50	PASS	.	GT	0/1
